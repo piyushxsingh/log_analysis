@@ -50,6 +50,8 @@ Develop a machine learning–based system that can:
 ```
 log_analysis_system/
 │
+|__pycache__
+|
 ├── data/
 │   |── generate_logs.py      # Synthetic log generator
 │   └── system_logs.csv       # Generated dataset (1,200 logs)
