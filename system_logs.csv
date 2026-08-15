@@ -1,0 +1,1201 @@
+timestamp,severity,message,source,host
+2024-01-01 00:00:30,INFO,Cache refreshed successfully for module UserController,user-service,host-1
+2024-01-01 00:00:33,INFO,User charlie logged out,user-service,host-2
+2024-01-01 00:01:06,WARNING,Slow query detected on table products: 4060ms,payment-api,host-3
+2024-01-01 00:01:11,WARNING,Retry attempt 198 for service scheduler,user-service,host-1
+2024-01-01 00:01:21,INFO,User system logged in successfully from IP 10.0.0.4,data-processor,host-1
+2024-01-01 00:03:16,WARNING,Disk usage at 93% on volume nvme0n1,auth-service,host-2
+2024-01-01 00:03:18,INFO,Configuration file loaded: app.yaml,payment-api,host-2
+2024-01-01 00:03:41,INFO,Database connection established successfully,payment-api,host-3
+2024-01-01 00:03:48,INFO,Email notification sent to eve,user-service,host-3
+2024-01-01 00:03:55,WARNING,Deprecated API endpoint /api/v1/users called by charlie,auth-service,host-5
+2024-01-01 00:04:06,WARNING,Timezone mismatch detected in request from 192.168.1.8,scheduler,host-1
+2024-01-01 00:04:09,CRITICAL,Memory leak detected — system will restart in 499s,payment-api,host-3
+2024-01-01 00:04:15,WARNING,SSL certificate for example.com expires in 25 days,auth-service,host-1
+2024-01-01 00:04:42,INFO,Payment processed successfully for order ORD-9518,user-service,host-4
+2024-01-01 00:04:54,WARNING,Retry attempt 239 for service payment-api,scheduler,host-5
+2024-01-01 00:05:06,ERROR,Configuration missing required key: secrets.env,auth-service,host-5
+2024-01-01 00:05:14,ERROR,API call to /data/export failed after 393 retries,user-service,host-3
+2024-01-01 00:06:21,INFO,Database connection established successfully,data-processor,host-2
+2024-01-01 00:06:31,INFO,Health check passed for service data-processor,user-service,host-1
+2024-01-01 00:06:50,WARNING,High memory usage detected: 75% utilization,payment-api,host-1
+2024-01-01 00:07:17,ERROR,Service user-service returned HTTP 500,data-processor,host-5
+2024-01-01 00:07:26,ERROR,Failed to write to disk: insufficient funds,scheduler,host-2
+2024-01-01 00:08:02,WARNING,Queue size for job-queue exceeds 181 messages,scheduler,host-2
+2024-01-01 00:08:08,WARNING,Failed login attempt for user system from IP 10.0.0.5,data-processor,host-3
+2024-01-01 00:08:14,INFO,User dave logged out,scheduler,host-1
+2024-01-01 00:09:43,INFO,Scheduled job nightly-backup completed in 2897ms,payment-api,host-3
+2024-01-01 00:10:35,INFO,Database connection established successfully,payment-api,host-4
+2024-01-01 00:10:57,INFO,Cache refreshed successfully for module DataExporter,auth-service,host-5
+2024-01-01 00:11:16,INFO,API request to /data/export returned 200 OK,payment-api,host-4
+2024-01-01 00:12:37,INFO,Email notification sent to charlie,data-processor,host-3
+2024-01-01 00:12:49,ERROR,Permission denied: user dave accessing /admin,payment-api,host-1
+2024-01-01 00:13:08,CRITICAL,DDoS attack detected: 228 requests/sec from 192.168.1.6,payment-api,host-2
+2024-01-01 00:13:30,WARNING,Cache miss rate elevated: 99%,data-processor,host-3
+2024-01-01 00:13:49,INFO,Health check passed for service data-processor,payment-api,host-1
+2024-01-01 00:14:59,WARNING,Failed login attempt for user admin from IP 192.168.1.3,payment-api,host-2
+2024-01-01 00:15:58,WARNING,SSL certificate for internal.company.io expires in 8 days,auth-service,host-2
+2024-01-01 00:15:59,INFO,Backup completed successfully for redis-main,user-service,host-5
+2024-01-01 00:17:09,WARNING,High memory usage detected: 65% utilization,user-service,host-2
+2024-01-01 00:17:12,ERROR,Failed to process payment for order ORD-9619: timeout,auth-service,host-1
+2024-01-01 00:20:29,ERROR,Permission denied: user system accessing /admin,user-service,host-4
+2024-01-01 00:20:45,WARNING,Rate limit approaching for API key KEY-161,auth-service,host-5
+2024-01-01 00:21:06,INFO,Backup completed successfully for redis-main,auth-service,host-2
+2024-01-01 00:21:46,CRITICAL,Database cluster redis-main is completely unreachable,user-service,host-4
+2024-01-01 00:21:50,WARNING,Low available connections in pool: 383 remaining,data-processor,host-1
+2024-01-01 00:22:07,INFO,Service user-service started on port 6379,payment-api,host-1
+2024-01-01 00:22:28,INFO,API request to /health returned 200 OK,user-service,host-5
+2024-01-01 00:22:30,WARNING,Failed login attempt for user dave from IP 192.168.1.3,data-processor,host-4
+2024-01-01 00:22:52,WARNING,Rate limit approaching for API key KEY-841,scheduler,host-4
+2024-01-01 00:23:23,INFO,Database connection established successfully,scheduler,host-4
+2024-01-01 00:23:28,INFO,Email notification sent to admin,scheduler,host-2
+2024-01-01 00:24:30,INFO,Backup completed successfully for mongo-cluster,payment-api,host-1
+2024-01-01 00:24:42,INFO,Email notification sent to system,auth-service,host-1
+2024-01-01 00:25:36,INFO,API request to /api/v1/users returned 200 OK,auth-service,host-3
+2024-01-01 00:25:44,WARNING,Response time for /health exceeded 776ms threshold,auth-service,host-2
+2024-01-01 00:25:55,ERROR,Database connection failed: timeout after 6079ms,data-processor,host-5
+2024-01-01 00:26:33,INFO,Backup completed successfully for redis-main,scheduler,host-1
+2024-01-01 00:27:00,WARNING,Rate limit approaching for API key KEY-290,payment-api,host-1
+2024-01-01 00:27:05,INFO,Database connection established successfully,auth-service,host-3
+2024-01-01 00:27:20,WARNING,Queue size for email-queue exceeds 222 messages,user-service,host-5
+2024-01-01 00:28:28,ERROR,Authentication token expired for user bob,scheduler,host-1
+2024-01-01 00:28:48,WARNING,Failed login attempt for user system from IP 10.0.0.2,user-service,host-2
+2024-01-01 00:29:07,INFO,Scheduled job log-rotation completed in 6343ms,auth-service,host-3
+2024-01-01 00:29:28,ERROR,Email delivery failed for system: insufficient funds,payment-api,host-1
+2024-01-01 00:29:43,ERROR,File not found: backup.tar.gz,scheduler,host-4
+2024-01-01 00:30:20,INFO,User alice logged out,data-processor,host-2
+2024-01-01 00:30:36,INFO,API request to /data/export returned 200 OK,user-service,host-3
+2024-01-01 00:31:12,WARNING,Queue size for job-queue exceeds 336 messages,scheduler,host-5
+2024-01-01 00:31:20,INFO,New record inserted into table users,payment-api,host-1
+2024-01-01 00:34:16,INFO,Backup completed successfully for mongo-cluster,user-service,host-3
+2024-01-01 00:34:42,ERROR,Failed to process payment for order ORD-5064: insufficient funds,auth-service,host-4
+2024-01-01 00:34:53,INFO,API request to /api/v2/payments returned 200 OK,scheduler,host-5
+2024-01-01 00:34:59,WARNING,Disk usage at 97% on volume sdb2,auth-service,host-4
+2024-01-01 00:35:12,INFO,User alice logged in successfully from IP 192.168.1.3,data-processor,host-5
+2024-01-01 00:35:29,INFO,Scheduled job nightly-backup completed in 4566ms,payment-api,host-5
+2024-01-01 00:38:00,INFO,New record inserted into table sessions,user-service,host-4
+2024-01-01 00:38:06,WARNING,Deprecated API endpoint /login called by admin,auth-service,host-2
+2024-01-01 00:38:55,WARNING,Slow query detected on table audit_logs: 5505ms,data-processor,host-4
+2024-01-01 00:38:58,CRITICAL,CPU usage at 100% for 79 consecutive minutes,data-processor,host-4
+2024-01-01 00:39:16,WARNING,Rate limit approaching for API key KEY-962,data-processor,host-1
+2024-01-01 00:39:17,WARNING,High memory usage detected: 61% utilization,auth-service,host-1
+2024-01-01 00:39:19,INFO,API request to /health returned 200 OK,scheduler,host-2
+2024-01-01 00:40:01,WARNING,SSL certificate for example.com expires in 4 days,data-processor,host-4
+2024-01-01 00:40:09,WARNING,SSL certificate for internal.company.io expires in 13 days,auth-service,host-2
+2024-01-01 00:40:26,WARNING,Retry attempt 293 for service auth-service,payment-api,host-1
+2024-01-01 00:40:32,INFO,Cache refreshed successfully for module PaymentProcessor,user-service,host-2
+2024-01-01 00:42:12,CRITICAL,Service data-processor has been down for 483 minutes,user-service,host-2
+2024-01-01 00:42:20,INFO,Health check passed for service data-processor,auth-service,host-1
+2024-01-01 00:42:29,WARNING,Retry attempt 179 for service scheduler,data-processor,host-3
+2024-01-01 00:42:32,INFO,Email notification sent to alice,auth-service,host-5
+2024-01-01 00:42:35,ERROR,Failed to process payment for order ORD-7431: insufficient funds,auth-service,host-2
+2024-01-01 00:42:49,INFO,Health check passed for service scheduler,data-processor,host-4
+2024-01-01 00:43:26,INFO,Database connection established successfully,payment-api,host-3
+2024-01-01 00:44:28,INFO,Cache refreshed successfully for module DataExporter,scheduler,host-3
+2024-01-01 00:46:00,WARNING,Timezone mismatch detected in request from 192.168.1.9,data-processor,host-4
+2024-01-01 00:46:12,INFO,Payment processed successfully for order ORD-6289,data-processor,host-1
+2024-01-01 00:48:36,INFO,Email notification sent to bob,scheduler,host-4
+2024-01-01 00:48:36,WARNING,User alice attempted to access restricted resource,scheduler,host-4
+2024-01-01 00:49:35,INFO,Service auth-service started on port 6379,user-service,host-1
+2024-01-01 00:50:21,ERROR,Service data-processor returned HTTP 500,data-processor,host-5
+2024-01-01 00:50:31,WARNING,Cache miss rate elevated: 94%,scheduler,host-5
+2024-01-01 00:50:33,WARNING,Slow query detected on table sessions: 2298ms,data-processor,host-4
+2024-01-01 00:50:54,INFO,User eve logged out,user-service,host-3
+2024-01-01 00:51:47,WARNING,Response time for /api/v1/users exceeded 8500ms threshold,scheduler,host-2
+2024-01-01 00:51:52,CRITICAL,SYSTEM CRASH: Kernel panic in process 7102,scheduler,host-2
+2024-01-01 00:52:22,INFO,Session created for user eve,scheduler,host-3
+2024-01-01 00:54:02,INFO,Cache refreshed successfully for module UserController,data-processor,host-1
+2024-01-01 00:54:51,INFO,User alice logged in successfully from IP 192.168.1.9,data-processor,host-4
+2024-01-01 00:54:57,INFO,Database connection established successfully,data-processor,host-5
+2024-01-01 00:55:42,INFO,Session created for user eve,user-service,host-2
+2024-01-01 00:55:48,WARNING,Cache miss rate elevated: 96%,user-service,host-1
+2024-01-01 00:55:49,WARNING,Timezone mismatch detected in request from 10.0.0.5,auth-service,host-5
+2024-01-01 00:56:04,CRITICAL,All database replicas are out of sync,auth-service,host-1
+2024-01-01 00:56:05,INFO,Health check passed for service data-processor,user-service,host-5
+2024-01-01 00:58:12,ERROR,Out of memory error in process 1062,payment-api,host-1
+2024-01-01 00:58:13,INFO,Cache refreshed successfully for module UserController,scheduler,host-4
+2024-01-01 00:59:59,WARNING,Retry attempt 62 for service data-processor,data-processor,host-2
+2024-01-01 01:02:56,WARNING,User eve attempted to access restricted resource,scheduler,host-3
+2024-01-01 01:03:59,INFO,File report.pdf uploaded successfully,data-processor,host-3
+2024-01-01 01:04:08,INFO,File backup.tar.gz uploaded successfully,user-service,host-4
+2024-01-01 01:04:29,WARNING,Response time for /api/v2/payments exceeded 8058ms threshold,data-processor,host-5
+2024-01-01 01:04:30,ERROR,Configuration missing required key: secrets.env,user-service,host-1
+2024-01-01 01:04:50,INFO,Cache refreshed successfully for module PaymentProcessor,payment-api,host-5
+2024-01-01 01:05:20,INFO,File backup.tar.gz uploaded successfully,data-processor,host-1
+2024-01-01 01:06:20,WARNING,Low available connections in pool: 442 remaining,user-service,host-2
+2024-01-01 01:07:03,INFO,Payment processed successfully for order ORD-9745,auth-service,host-4
+2024-01-01 01:07:24,INFO,Service auth-service started on port 5432,user-service,host-1
+2024-01-01 01:07:39,WARNING,Cache miss rate elevated: 66%,data-processor,host-1
+2024-01-01 01:08:00,WARNING,Failed login attempt for user alice from IP 10.0.0.3,auth-service,host-3
+2024-01-01 01:08:31,INFO,Cache refreshed successfully for module DataExporter,data-processor,host-4
+2024-01-01 01:10:09,INFO,Health check passed for service data-processor,auth-service,host-3
+2024-01-01 01:10:41,INFO,User system logged out,data-processor,host-3
+2024-01-01 01:10:50,CRITICAL,SYSTEM CRASH: Kernel panic in process 1002,scheduler,host-5
+2024-01-01 01:10:57,WARNING,Rate limit approaching for API key KEY-877,data-processor,host-1
+2024-01-01 01:11:05,INFO,Service data-processor started on port 6379,payment-api,host-5
+2024-01-01 01:11:11,ERROR,NullPointerException in module DataExporter at line 369,user-service,host-2
+2024-01-01 01:13:11,WARNING,Disk usage at 95% on volume sdb2,user-service,host-2
+2024-01-01 01:13:53,INFO,User dave logged out,user-service,host-4
+2024-01-01 01:13:58,WARNING,Disk usage at 87% on volume sdb2,auth-service,host-3
+2024-01-01 01:14:21,CRITICAL,Ransomware activity suspected on host host-10,auth-service,host-3
+2024-01-01 01:14:35,ERROR,NullPointerException in module AuthManager at line 43,data-processor,host-1
+2024-01-01 01:15:16,INFO,Backup completed successfully for postgres-primary,user-service,host-5
+2024-01-01 01:15:20,ERROR,Authentication token expired for user eve,scheduler,host-5
+2024-01-01 01:16:48,INFO,Email notification sent to system,payment-api,host-5
+2024-01-01 01:17:08,INFO,Database connection established successfully,data-processor,host-3
+2024-01-01 01:17:53,INFO,Service scheduler started on port 5432,data-processor,host-2
+2024-01-01 01:18:59,WARNING,User charlie attempted to access restricted resource,payment-api,host-1
+2024-01-01 01:19:32,WARNING,Cache miss rate elevated: 62%,data-processor,host-4
+2024-01-01 01:20:38,INFO,New record inserted into table transactions,data-processor,host-1
+2024-01-01 01:20:46,INFO,Session created for user bob,scheduler,host-5
+2024-01-01 01:20:55,WARNING,Rate limit approaching for API key KEY-946,auth-service,host-4
+2024-01-01 01:21:18,INFO,User system logged in successfully from IP 192.168.1.28,payment-api,host-3
+2024-01-01 01:21:33,INFO,Health check passed for service scheduler,payment-api,host-1
+2024-01-01 01:21:41,INFO,Configuration file loaded: secrets.env,auth-service,host-2
+2024-01-01 01:22:38,CRITICAL,Ransomware activity suspected on host host-2,scheduler,host-5
+2024-01-01 01:22:50,CRITICAL,Service scheduler has been down for 449 minutes,data-processor,host-5
+2024-01-01 01:23:50,INFO,Cache refreshed successfully for module UserController,data-processor,host-2
+2024-01-01 01:23:58,INFO,Cache refreshed successfully for module UserController,auth-service,host-5
+2024-01-01 01:24:46,INFO,API request to /data/export returned 200 OK,user-service,host-2
+2024-01-01 01:25:07,INFO,Email notification sent to admin,scheduler,host-5
+2024-01-01 01:25:45,ERROR,Authentication token expired for user charlie,payment-api,host-3
+2024-01-01 01:25:58,WARNING,Queue size for job-queue exceeds 163 messages,data-processor,host-4
+2024-01-01 01:26:04,ERROR,Failed to process payment for order ORD-1881: timeout,payment-api,host-5
+2024-01-01 01:26:58,INFO,File backup.tar.gz uploaded successfully,payment-api,host-3
+2024-01-01 01:26:59,WARNING,Cache miss rate elevated: 94%,auth-service,host-4
+2024-01-01 01:27:28,WARNING,Cache miss rate elevated: 86%,payment-api,host-4
+2024-01-01 01:28:07,INFO,Database connection established successfully,payment-api,host-4
+2024-01-01 01:28:47,INFO,File data.csv uploaded successfully,auth-service,host-1
+2024-01-01 01:29:13,WARNING,Config value secrets.env is using deprecated format,data-processor,host-3
+2024-01-01 01:29:52,INFO,User dave logged in successfully from IP 10.0.0.7,payment-api,host-1
+2024-01-01 01:30:21,INFO,Session created for user bob,scheduler,host-4
+2024-01-01 01:30:53,WARNING,Config value app.yaml is using deprecated format,payment-api,host-5
+2024-01-01 01:30:56,WARNING,Retry attempt 86 for service payment-api,user-service,host-3
+2024-01-01 01:31:20,CRITICAL,Critical vulnerability CVE-2021-6159 actively exploited,auth-service,host-3
+2024-01-01 01:32:35,WARNING,Low available connections in pool: 376 remaining,auth-service,host-1
+2024-01-01 01:33:52,INFO,New record inserted into table users,data-processor,host-2
+2024-01-01 01:33:56,INFO,Session created for user system,data-processor,host-4
+2024-01-01 01:34:10,INFO,Configuration file loaded: db.conf,data-processor,host-4
+2024-01-01 01:34:10,INFO,API request to /data/export returned 200 OK,user-service,host-3
+2024-01-01 01:35:10,INFO,User system logged out,payment-api,host-5
+2024-01-01 01:35:20,INFO,Cache refreshed successfully for module PaymentProcessor,payment-api,host-5
+2024-01-01 01:35:43,ERROR,Failed to write to disk: insufficient funds,auth-service,host-2
+2024-01-01 01:35:50,ERROR,Data validation failed for field email,auth-service,host-3
+2024-01-01 01:37:20,INFO,File backup.tar.gz uploaded successfully,scheduler,host-4
+2024-01-01 01:39:23,INFO,Health check passed for service auth-service,data-processor,host-1
+2024-01-01 01:39:29,WARNING,Config value app.yaml is using deprecated format,data-processor,host-3
+2024-01-01 01:39:40,ERROR,API call to /health failed after 233 retries,auth-service,host-2
+2024-01-01 01:39:45,WARNING,High memory usage detected: 81% utilization,scheduler,host-1
+2024-01-01 01:39:56,INFO,Email notification sent to admin,scheduler,host-4
+2024-01-01 01:40:16,INFO,Session created for user bob,auth-service,host-3
+2024-01-01 01:40:28,WARNING,Low available connections in pool: 428 remaining,user-service,host-1
+2024-01-01 01:42:13,INFO,User charlie logged in successfully from IP 10.0.0.6,auth-service,host-4
+2024-01-01 01:42:34,ERROR,Session SES-578 not found or expired,user-service,host-1
+2024-01-01 01:43:00,INFO,New record inserted into table sessions,payment-api,host-1
+2024-01-01 01:43:11,ERROR,Unhandled exception in thread Thread-7: insufficient funds,auth-service,host-4
+2024-01-01 01:43:15,INFO,File data.csv uploaded successfully,user-service,host-5
+2024-01-01 01:43:46,ERROR,Unhandled exception in thread Thread-8: insufficient funds,scheduler,host-5
+2024-01-01 01:44:05,WARNING,User dave attempted to access restricted resource,payment-api,host-3
+2024-01-01 01:44:15,ERROR,Email delivery failed for charlie: insufficient funds,data-processor,host-4
+2024-01-01 01:44:39,WARNING,Queue size for email-queue exceeds 44 messages,data-processor,host-3
+2024-01-01 01:44:47,INFO,User eve logged in successfully from IP 192.168.1.16,auth-service,host-5
+2024-01-01 01:45:35,INFO,User charlie logged in successfully from IP 192.168.1.1,user-service,host-4
+2024-01-01 01:45:37,WARNING,User admin attempted to access restricted resource,payment-api,host-4
+2024-01-01 01:46:16,INFO,Session created for user system,auth-service,host-5
+2024-01-01 01:46:46,CRITICAL,Disk sdb2 is FULL — writes are failing,payment-api,host-3
+2024-01-01 01:46:55,INFO,Session created for user alice,auth-service,host-3
+2024-01-01 01:47:40,INFO,Configuration file loaded: app.yaml,data-processor,host-2
+2024-01-01 01:48:12,INFO,User system logged in successfully from IP 192.168.1.18,user-service,host-1
+2024-01-01 01:49:07,ERROR,Authentication token expired for user system,data-processor,host-5
+2024-01-01 01:50:48,ERROR,Database connection failed: timeout after 751ms,data-processor,host-5
+2024-01-01 01:50:53,WARNING,User admin attempted to access restricted resource,data-processor,host-2
+2024-01-01 01:51:29,WARNING,Queue size for job-queue exceeds 214 messages,data-processor,host-2
+2024-01-01 01:52:52,WARNING,High memory usage detected: 79% utilization,payment-api,host-2
+2024-01-01 01:53:26,INFO,File report.pdf uploaded successfully,auth-service,host-3
+2024-01-01 01:53:34,INFO,Health check passed for service payment-api,payment-api,host-1
+2024-01-01 01:54:31,INFO,Database connection established successfully,data-processor,host-1
+2024-01-01 01:54:32,INFO,Payment processed successfully for order ORD-1203,data-processor,host-4
+2024-01-01 01:55:16,ERROR,Permission denied: user bob accessing /etc/passwd,user-service,host-3
+2024-01-01 01:55:22,WARNING,Response time for /login exceeded 3959ms threshold,scheduler,host-3
+2024-01-01 01:55:40,INFO,File report.pdf uploaded successfully,data-processor,host-1
+2024-01-01 01:55:50,INFO,User admin logged out,user-service,host-4
+2024-01-01 01:57:24,WARNING,Disk usage at 69% on volume sda1,auth-service,host-4
+2024-01-01 01:58:45,ERROR,API call to /health failed after 72 retries,auth-service,host-5
+2024-01-01 01:59:15,WARNING,Deprecated API endpoint /api/v1/users called by admin,payment-api,host-4
+2024-01-01 01:59:56,INFO,Backup completed successfully for mongo-cluster,payment-api,host-4
+2024-01-01 02:00:06,INFO,User admin logged out,auth-service,host-5
+2024-01-01 02:00:47,WARNING,Low available connections in pool: 84 remaining,auth-service,host-5
+2024-01-01 02:00:54,WARNING,Cache miss rate elevated: 80%,payment-api,host-2
+2024-01-01 02:01:41,WARNING,Config value app.yaml is using deprecated format,user-service,host-2
+2024-01-01 02:01:48,CRITICAL,Disk sda1 is FULL — writes are failing,payment-api,host-3
+2024-01-01 02:03:17,INFO,Database connection established successfully,data-processor,host-4
+2024-01-01 02:03:25,INFO,Service user-service started on port 6379,data-processor,host-3
+2024-01-01 02:03:31,CRITICAL,CPU usage at 100% for 103 consecutive minutes,data-processor,host-3
+2024-01-01 02:03:50,WARNING,SSL certificate for example.com expires in 16 days,scheduler,host-4
+2024-01-01 02:04:37,INFO,File data.csv uploaded successfully,data-processor,host-4
+2024-01-01 02:05:21,WARNING,Queue size for email-queue exceeds 15 messages,data-processor,host-3
+2024-01-01 02:07:45,INFO,User system logged in successfully from IP 192.168.1.16,scheduler,host-4
+2024-01-01 02:07:57,INFO,Backup completed successfully for mongo-cluster,user-service,host-1
+2024-01-01 02:08:22,WARNING,SSL certificate for internal.company.io expires in 25 days,scheduler,host-1
+2024-01-01 02:08:44,INFO,Database connection established successfully,payment-api,host-2
+2024-01-01 02:08:54,INFO,Payment processed successfully for order ORD-2041,user-service,host-4
+2024-01-01 02:09:58,INFO,Service user-service started on port 443,user-service,host-4
+2024-01-01 02:10:36,ERROR,Database connection failed: timeout after 3976ms,data-processor,host-1
+2024-01-01 02:10:46,INFO,Payment processed successfully for order ORD-9973,user-service,host-5
+2024-01-01 02:10:48,INFO,API request to /api/v2/payments returned 200 OK,data-processor,host-2
+2024-01-01 02:10:57,ERROR,Database connection failed: timeout after 4312ms,scheduler,host-2
+2024-01-01 02:13:38,INFO,File backup.tar.gz uploaded successfully,auth-service,host-1
+2024-01-01 02:14:02,INFO,New record inserted into table sessions,user-service,host-1
+2024-01-01 02:14:13,CRITICAL,CPU usage at 100% for 28 consecutive minutes,data-processor,host-1
+2024-01-01 02:16:54,CRITICAL,SYSTEM CRASH: Kernel panic in process 3958,auth-service,host-3
+2024-01-01 02:16:54,WARNING,Slow query detected on table audit_logs: 1787ms,auth-service,host-1
+2024-01-01 02:17:18,WARNING,Response time for /api/v2/payments exceeded 6585ms threshold,data-processor,host-3
+2024-01-01 02:17:43,INFO,Payment processed successfully for order ORD-3540,data-processor,host-3
+2024-01-01 02:18:08,WARNING,Timezone mismatch detected in request from 192.168.1.7,data-processor,host-5
+2024-01-01 02:18:58,INFO,New record inserted into table users,payment-api,host-2
+2024-01-01 02:18:58,INFO,User system logged in successfully from IP 192.168.1.2,payment-api,host-3
+2024-01-01 02:19:23,ERROR,Database connection failed: timeout after 6860ms,data-processor,host-1
+2024-01-01 02:19:44,CRITICAL,DDoS attack detected: 371 requests/sec from 192.168.1.2,data-processor,host-2
+2024-01-01 02:19:50,INFO,Backup completed successfully for mongo-cluster,scheduler,host-3
+2024-01-01 02:20:58,ERROR,Failed to write to disk: insufficient funds,user-service,host-2
+2024-01-01 02:21:01,INFO,Health check passed for service auth-service,data-processor,host-2
+2024-01-01 02:21:46,WARNING,Retry attempt 215 for service auth-service,data-processor,host-4
+2024-01-01 02:22:17,ERROR,Data validation failed for field ssn,auth-service,host-1
+2024-01-01 02:23:12,INFO,API request to /api/v1/users returned 200 OK,payment-api,host-4
+2024-01-01 02:24:05,INFO,User dave logged in successfully from IP 10.0.0.2,payment-api,host-5
+2024-01-01 02:25:04,INFO,Scheduled job db-cleanup completed in 6101ms,user-service,host-3
+2024-01-01 02:25:12,ERROR,API call to /login failed after 259 retries,data-processor,host-2
+2024-01-01 02:26:21,INFO,User system logged in successfully from IP 192.168.1.18,auth-service,host-5
+2024-01-01 02:26:49,INFO,User dave logged in successfully from IP 192.168.1.22,auth-service,host-1
+2024-01-01 02:26:59,INFO,Database connection established successfully,scheduler,host-2
+2024-01-01 02:27:10,INFO,Service scheduler started on port 3000,user-service,host-1
+2024-01-01 02:27:16,WARNING,Response time for /login exceeded 2338ms threshold,auth-service,host-1
+2024-01-01 02:27:49,INFO,New record inserted into table sessions,payment-api,host-1
+2024-01-01 02:28:40,WARNING,Cache miss rate elevated: 62%,scheduler,host-3
+2024-01-01 02:28:46,WARNING,Config value db.conf is using deprecated format,payment-api,host-3
+2024-01-01 02:28:49,WARNING,High memory usage detected: 72% utilization,payment-api,host-1
+2024-01-01 02:29:34,WARNING,Cache miss rate elevated: 63%,payment-api,host-5
+2024-01-01 02:30:20,WARNING,Queue size for email-queue exceeds 304 messages,scheduler,host-4
+2024-01-01 02:30:26,INFO,User alice logged in successfully from IP 192.168.1.20,payment-api,host-1
+2024-01-01 02:30:39,WARNING,Config value app.yaml is using deprecated format,payment-api,host-1
+2024-01-01 02:30:52,INFO,User eve logged in successfully from IP 192.168.1.10,payment-api,host-4
+2024-01-01 02:31:24,ERROR,File not found: report.pdf,user-service,host-2
+2024-01-01 02:31:26,ERROR,Failed to write to disk: server error,payment-api,host-2
+2024-01-01 02:32:34,INFO,Scheduled job log-rotation completed in 6228ms,user-service,host-4
+2024-01-01 02:32:34,INFO,Cache refreshed successfully for module UserController,user-service,host-1
+2024-01-01 02:33:18,INFO,Configuration file loaded: db.conf,data-processor,host-5
+2024-01-01 02:33:19,INFO,User bob logged out,scheduler,host-4
+2024-01-01 02:33:26,INFO,Session created for user dave,auth-service,host-2
+2024-01-01 02:33:49,INFO,Service payment-api started on port 3000,data-processor,host-4
+2024-01-01 02:34:14,WARNING,Failed login attempt for user system from IP 192.168.1.23,data-processor,host-5
+2024-01-01 02:34:18,INFO,Payment processed successfully for order ORD-8567,auth-service,host-1
+2024-01-01 02:34:42,INFO,Backup completed successfully for postgres-primary,auth-service,host-5
+2024-01-01 02:35:13,WARNING,Timezone mismatch detected in request from 192.168.1.20,data-processor,host-5
+2024-01-01 02:35:16,INFO,API request to /api/v2/payments returned 200 OK,user-service,host-5
+2024-01-01 02:35:37,CRITICAL,Memory leak detected — system will restart in 196s,user-service,host-2
+2024-01-01 02:36:17,ERROR,Data validation failed for field ssn,user-service,host-3
+2024-01-01 02:36:26,WARNING,Timezone mismatch detected in request from 192.168.1.15,user-service,host-2
+2024-01-01 02:37:04,INFO,Database connection established successfully,payment-api,host-5
+2024-01-01 02:37:43,INFO,Backup completed successfully for postgres-primary,auth-service,host-1
+2024-01-01 02:37:57,WARNING,Deprecated API endpoint /health called by admin,auth-service,host-1
+2024-01-01 02:38:42,WARNING,Timezone mismatch detected in request from 10.0.0.9,auth-service,host-2
+2024-01-01 02:39:33,INFO,Service data-processor started on port 6379,payment-api,host-1
+2024-01-01 02:39:43,INFO,Cache refreshed successfully for module UserController,user-service,host-4
+2024-01-01 02:39:57,INFO,Configuration file loaded: secrets.env,payment-api,host-5
+2024-01-01 02:40:17,WARNING,Cache miss rate elevated: 84%,auth-service,host-1
+2024-01-01 02:40:34,WARNING,Disk usage at 90% on volume nvme0n1,auth-service,host-3
+2024-01-01 02:40:37,INFO,Email notification sent to eve,data-processor,host-3
+2024-01-01 02:40:42,CRITICAL,Critical vulnerability CVE-2020-3933 actively exploited,data-processor,host-4
+2024-01-01 02:40:52,ERROR,Session SES-970 not found or expired,scheduler,host-2
+2024-01-01 02:41:10,INFO,New record inserted into table audit_logs,payment-api,host-1
+2024-01-01 02:41:14,INFO,Cache refreshed successfully for module DataExporter,data-processor,host-4
+2024-01-01 02:46:13,WARNING,Failed login attempt for user eve from IP 192.168.1.7,auth-service,host-1
+2024-01-01 02:46:17,INFO,Database connection established successfully,scheduler,host-2
+2024-01-01 02:46:52,WARNING,High memory usage detected: 73% utilization,payment-api,host-1
+2024-01-01 02:47:22,INFO,File backup.tar.gz uploaded successfully,payment-api,host-3
+2024-01-01 02:47:22,INFO,Scheduled job log-rotation completed in 8675ms,scheduler,host-2
+2024-01-01 02:47:31,WARNING,Config value secrets.env is using deprecated format,auth-service,host-1
+2024-01-01 02:48:11,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.6,scheduler,host-1
+2024-01-01 02:48:39,CRITICAL,Production deployment FAILED: rollback initiated,payment-api,host-3
+2024-01-01 02:49:58,CRITICAL,Ransomware activity suspected on host host-3,data-processor,host-1
+2024-01-01 02:50:03,WARNING,Deprecated API endpoint /data/export called by dave,auth-service,host-2
+2024-01-01 02:50:36,CRITICAL,Production deployment FAILED: rollback initiated,data-processor,host-1
+2024-01-01 02:51:19,INFO,Database connection established successfully,auth-service,host-1
+2024-01-01 02:51:33,WARNING,Config value secrets.env is using deprecated format,data-processor,host-3
+2024-01-01 02:52:45,INFO,Database connection established successfully,data-processor,host-1
+2024-01-01 02:52:48,WARNING,Rate limit approaching for API key KEY-744,auth-service,host-5
+2024-01-01 02:52:49,CRITICAL,Data corruption detected in table audit_logs,user-service,host-5
+2024-01-01 02:52:53,INFO,API request to /api/v1/users returned 200 OK,payment-api,host-3
+2024-01-01 02:52:59,CRITICAL,Ransomware activity suspected on host host-3,payment-api,host-2
+2024-01-01 02:53:24,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.2,payment-api,host-2
+2024-01-01 02:54:08,INFO,File report.pdf uploaded successfully,user-service,host-1
+2024-01-01 02:54:30,ERROR,Failed to process payment for order ORD-2841: insufficient funds,scheduler,host-3
+2024-01-01 02:54:57,WARNING,Disk usage at 77% on volume sdb2,user-service,host-2
+2024-01-01 02:55:03,INFO,Configuration file loaded: db.conf,auth-service,host-2
+2024-01-01 02:57:36,INFO,API request to /health returned 200 OK,data-processor,host-5
+2024-01-01 02:58:38,INFO,Configuration file loaded: db.conf,scheduler,host-2
+2024-01-01 02:58:38,ERROR,Email delivery failed for dave: invalid card,data-processor,host-4
+2024-01-01 02:58:43,ERROR,Email delivery failed for dave: insufficient funds,scheduler,host-4
+2024-01-01 02:58:45,INFO,Cache refreshed successfully for module DataExporter,auth-service,host-2
+2024-01-01 02:59:50,ERROR,Email delivery failed for bob: timeout,scheduler,host-1
+2024-01-01 03:00:10,INFO,Database connection established successfully,user-service,host-1
+2024-01-01 03:00:45,WARNING,Failed login attempt for user system from IP 192.168.1.4,data-processor,host-2
+2024-01-01 03:01:00,INFO,Configuration file loaded: db.conf,payment-api,host-1
+2024-01-01 03:01:05,INFO,Service data-processor started on port 443,scheduler,host-5
+2024-01-01 03:01:09,WARNING,User system attempted to access restricted resource,payment-api,host-3
+2024-01-01 03:01:16,INFO,File data.csv uploaded successfully,data-processor,host-4
+2024-01-01 03:01:27,WARNING,Slow query detected on table products: 1750ms,user-service,host-4
+2024-01-01 03:01:43,ERROR,Out of memory error in process 8045,scheduler,host-4
+2024-01-01 03:02:35,ERROR,Data validation failed for field email,auth-service,host-5
+2024-01-01 03:03:12,CRITICAL,Database cluster postgres-primary is completely unreachable,auth-service,host-2
+2024-01-01 03:03:22,ERROR,NullPointerException in module AuthManager at line 92,scheduler,host-5
+2024-01-01 03:03:46,INFO,Email notification sent to charlie,data-processor,host-2
+2024-01-01 03:03:55,INFO,User system logged out,user-service,host-5
+2024-01-01 03:04:47,WARNING,Retry attempt 164 for service data-processor,data-processor,host-3
+2024-01-01 03:05:15,WARNING,Response time for /health exceeded 6959ms threshold,data-processor,host-3
+2024-01-01 03:05:19,CRITICAL,SYSTEM CRASH: Kernel panic in process 8447,auth-service,host-2
+2024-01-01 03:05:21,INFO,Service data-processor started on port 3000,scheduler,host-4
+2024-01-01 03:05:51,WARNING,Retry attempt 356 for service payment-api,payment-api,host-4
+2024-01-01 03:05:54,INFO,Session created for user admin,data-processor,host-1
+2024-01-01 03:06:35,INFO,New record inserted into table users,user-service,host-2
+2024-01-01 03:06:51,WARNING,Retry attempt 142 for service data-processor,payment-api,host-2
+2024-01-01 03:07:03,INFO,Session created for user charlie,data-processor,host-5
+2024-01-01 03:07:04,ERROR,API call to /data/export failed after 280 retries,scheduler,host-5
+2024-01-01 03:07:23,INFO,API request to /login returned 200 OK,data-processor,host-5
+2024-01-01 03:07:40,CRITICAL,Service auth-service has been down for 268 minutes,auth-service,host-2
+2024-01-01 03:07:50,WARNING,High memory usage detected: 60% utilization,data-processor,host-1
+2024-01-01 03:08:57,CRITICAL,All database replicas are out of sync,data-processor,host-3
+2024-01-01 03:09:13,INFO,Health check passed for service auth-service,auth-service,host-1
+2024-01-01 03:09:23,CRITICAL,Database cluster postgres-primary is completely unreachable,scheduler,host-1
+2024-01-01 03:09:45,INFO,Service auth-service started on port 6379,data-processor,host-4
+2024-01-01 03:09:55,WARNING,Low available connections in pool: 18 remaining,payment-api,host-3
+2024-01-01 03:10:16,ERROR,Service scheduler returned HTTP 500,scheduler,host-3
+2024-01-01 03:10:20,INFO,Session created for user charlie,auth-service,host-1
+2024-01-01 03:10:38,INFO,File backup.tar.gz uploaded successfully,user-service,host-4
+2024-01-01 03:11:03,ERROR,File not found: report.pdf,user-service,host-1
+2024-01-01 03:11:10,CRITICAL,Backup restoration FAILED — data may be lost,auth-service,host-2
+2024-01-01 03:11:17,ERROR,File not found: backup.tar.gz,auth-service,host-1
+2024-01-01 03:11:18,ERROR,Service scheduler returned HTTP 500,data-processor,host-5
+2024-01-01 03:11:43,CRITICAL,SYSTEM CRASH: Kernel panic in process 9108,user-service,host-3
+2024-01-01 03:12:29,INFO,File data.csv uploaded successfully,auth-service,host-1
+2024-01-01 03:12:49,INFO,Cache refreshed successfully for module AuthManager,auth-service,host-3
+2024-01-01 03:13:28,WARNING,User dave attempted to access restricted resource,scheduler,host-4
+2024-01-01 03:13:29,INFO,Cache refreshed successfully for module DataExporter,auth-service,host-4
+2024-01-01 03:13:35,ERROR,Authentication token expired for user charlie,scheduler,host-2
+2024-01-01 03:13:48,INFO,Backup completed successfully for redis-main,payment-api,host-5
+2024-01-01 03:13:49,WARNING,Cache miss rate elevated: 73%,user-service,host-3
+2024-01-01 03:13:56,WARNING,Timezone mismatch detected in request from 192.168.1.16,scheduler,host-3
+2024-01-01 03:14:43,INFO,Service data-processor started on port 443,data-processor,host-4
+2024-01-01 03:14:56,INFO,API request to /data/export returned 200 OK,payment-api,host-1
+2024-01-01 03:15:23,INFO,File data.csv uploaded successfully,user-service,host-5
+2024-01-01 03:16:27,INFO,Configuration file loaded: db.conf,auth-service,host-3
+2024-01-01 03:16:34,CRITICAL,All database replicas are out of sync,scheduler,host-1
+2024-01-01 03:17:10,INFO,New record inserted into table products,auth-service,host-4
+2024-01-01 03:17:13,WARNING,Deprecated API endpoint /data/export called by system,payment-api,host-1
+2024-01-01 03:18:51,ERROR,Configuration missing required key: db.conf,payment-api,host-4
+2024-01-01 03:18:53,ERROR,Authentication token expired for user system,scheduler,host-5
+2024-01-01 03:18:54,WARNING,Cache miss rate elevated: 63%,auth-service,host-5
+2024-01-01 03:19:09,INFO,Database connection established successfully,data-processor,host-5
+2024-01-01 03:19:50,INFO,Backup completed successfully for mongo-cluster,scheduler,host-1
+2024-01-01 03:20:05,INFO,Configuration file loaded: secrets.env,user-service,host-5
+2024-01-01 03:20:33,ERROR,Authentication token expired for user system,data-processor,host-1
+2024-01-01 03:20:34,INFO,Database connection established successfully,payment-api,host-2
+2024-01-01 03:20:56,ERROR,Database connection failed: timeout after 7758ms,user-service,host-4
+2024-01-01 03:21:22,INFO,Session created for user admin,payment-api,host-1
+2024-01-01 03:22:42,WARNING,Disk usage at 63% on volume sda1,auth-service,host-5
+2024-01-01 03:23:37,CRITICAL,Production deployment FAILED: rollback initiated,data-processor,host-3
+2024-01-01 03:24:00,INFO,Cache refreshed successfully for module UserController,auth-service,host-1
+2024-01-01 03:24:14,WARNING,Config value db.conf is using deprecated format,auth-service,host-1
+2024-01-01 03:24:20,ERROR,Failed to process payment for order ORD-3833: timeout,auth-service,host-2
+2024-01-01 03:24:59,INFO,Session created for user system,data-processor,host-3
+2024-01-01 03:25:02,INFO,Configuration file loaded: secrets.env,data-processor,host-2
+2024-01-01 03:25:21,INFO,Session created for user dave,user-service,host-3
+2024-01-01 03:25:49,INFO,Health check passed for service auth-service,data-processor,host-2
+2024-01-01 03:26:07,WARNING,Deprecated API endpoint /login called by bob,data-processor,host-2
+2024-01-01 03:26:19,CRITICAL,Disk sda1 is FULL — writes are failing,payment-api,host-1
+2024-01-01 03:26:26,INFO,Configuration file loaded: db.conf,data-processor,host-4
+2024-01-01 03:26:26,WARNING,Slow query detected on table audit_logs: 7012ms,data-processor,host-1
+2024-01-01 03:26:45,INFO,User dave logged out,auth-service,host-5
+2024-01-01 03:26:48,WARNING,Slow query detected on table sessions: 7554ms,data-processor,host-1
+2024-01-01 03:27:35,WARNING,Failed login attempt for user eve from IP 10.0.0.6,user-service,host-4
+2024-01-01 03:28:03,CRITICAL,DDoS attack detected: 244 requests/sec from 192.168.1.15,data-processor,host-2
+2024-01-01 03:28:25,INFO,Health check passed for service data-processor,payment-api,host-4
+2024-01-01 03:29:42,INFO,Session created for user admin,data-processor,host-4
+2024-01-01 03:29:52,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.26,payment-api,host-5
+2024-01-01 03:30:21,WARNING,Rate limit approaching for API key KEY-430,payment-api,host-4
+2024-01-01 03:30:42,INFO,Session created for user admin,data-processor,host-1
+2024-01-01 03:30:45,ERROR,Configuration missing required key: app.yaml,user-service,host-5
+2024-01-01 03:30:55,INFO,Database connection established successfully,scheduler,host-3
+2024-01-01 03:31:00,INFO,Configuration file loaded: secrets.env,user-service,host-2
+2024-01-01 03:31:07,INFO,Payment processed successfully for order ORD-1538,payment-api,host-2
+2024-01-01 03:31:42,INFO,User eve logged in successfully from IP 10.0.0.7,payment-api,host-1
+2024-01-01 03:32:06,INFO,Backup completed successfully for redis-main,payment-api,host-3
+2024-01-01 03:32:16,WARNING,Failed login attempt for user system from IP 192.168.1.8,scheduler,host-4
+2024-01-01 03:32:19,INFO,Session created for user bob,user-service,host-3
+2024-01-01 03:32:37,INFO,Health check passed for service data-processor,data-processor,host-3
+2024-01-01 03:32:40,INFO,Configuration file loaded: db.conf,payment-api,host-2
+2024-01-01 03:33:07,WARNING,Retry attempt 117 for service data-processor,auth-service,host-4
+2024-01-01 03:33:24,ERROR,Configuration missing required key: secrets.env,auth-service,host-4
+2024-01-01 03:34:15,INFO,New record inserted into table products,scheduler,host-2
+2024-01-01 03:34:21,INFO,Cache refreshed successfully for module UserController,payment-api,host-4
+2024-01-01 03:34:22,INFO,Scheduled job db-cleanup completed in 1571ms,auth-service,host-4
+2024-01-01 03:35:11,INFO,User alice logged out,auth-service,host-1
+2024-01-01 03:35:38,INFO,Email notification sent to system,data-processor,host-1
+2024-01-01 03:36:18,INFO,Health check passed for service scheduler,scheduler,host-1
+2024-01-01 03:36:38,WARNING,User eve attempted to access restricted resource,user-service,host-4
+2024-01-01 03:36:52,INFO,Email notification sent to admin,scheduler,host-3
+2024-01-01 03:37:04,ERROR,Authentication token expired for user charlie,payment-api,host-4
+2024-01-01 03:37:56,ERROR,Unhandled exception in thread Thread-6: timeout,payment-api,host-3
+2024-01-01 03:37:57,CRITICAL,Disk sdb2 is FULL — writes are failing,scheduler,host-2
+2024-01-01 03:38:06,INFO,Scheduled job db-cleanup completed in 2537ms,auth-service,host-4
+2024-01-01 03:39:00,INFO,File report.pdf uploaded successfully,auth-service,host-1
+2024-01-01 03:39:04,ERROR,Service data-processor returned HTTP 500,data-processor,host-4
+2024-01-01 03:39:29,WARNING,SSL certificate for internal.company.io expires in 12 days,scheduler,host-5
+2024-01-01 03:40:00,WARNING,Cache miss rate elevated: 82%,payment-api,host-3
+2024-01-01 03:40:01,INFO,Cache refreshed successfully for module UserController,payment-api,host-5
+2024-01-01 03:40:06,CRITICAL,SYSTEM CRASH: Kernel panic in process 5284,user-service,host-3
+2024-01-01 03:41:15,CRITICAL,DDoS attack detected: 368 requests/sec from 192.168.1.5,scheduler,host-4
+2024-01-01 03:41:17,CRITICAL,SYSTEM CRASH: Kernel panic in process 8407,payment-api,host-5
+2024-01-01 03:42:05,WARNING,SSL certificate for internal.company.io expires in 7 days,auth-service,host-4
+2024-01-01 03:42:31,CRITICAL,Disk sda1 is FULL — writes are failing,scheduler,host-1
+2024-01-01 03:43:05,INFO,User eve logged in successfully from IP 192.168.1.1,scheduler,host-1
+2024-01-01 03:43:55,INFO,Cache refreshed successfully for module PaymentProcessor,auth-service,host-3
+2024-01-01 03:43:56,CRITICAL,CPU usage at 100% for 207 consecutive minutes,scheduler,host-4
+2024-01-01 03:44:07,CRITICAL,SSL private key KEY-410 has been compromised,auth-service,host-2
+2024-01-01 03:44:10,CRITICAL,Backup restoration FAILED — data may be lost,data-processor,host-5
+2024-01-01 03:44:48,ERROR,Authentication token expired for user bob,scheduler,host-3
+2024-01-01 03:44:53,WARNING,Slow query detected on table transactions: 4743ms,data-processor,host-5
+2024-01-01 03:45:07,WARNING,Queue size for job-queue exceeds 195 messages,auth-service,host-4
+2024-01-01 03:45:09,INFO,API request to /api/v1/users returned 200 OK,payment-api,host-1
+2024-01-01 03:45:34,INFO,File data.csv uploaded successfully,auth-service,host-4
+2024-01-01 03:46:23,INFO,Backup completed successfully for mongo-cluster,data-processor,host-5
+2024-01-01 03:47:23,ERROR,File not found: report.pdf,scheduler,host-2
+2024-01-01 03:47:53,WARNING,Cache miss rate elevated: 75%,payment-api,host-2
+2024-01-01 03:49:28,INFO,Service scheduler started on port 443,auth-service,host-2
+2024-01-01 03:50:32,INFO,Backup completed successfully for mongo-cluster,user-service,host-5
+2024-01-01 03:52:35,INFO,Session created for user eve,scheduler,host-1
+2024-01-01 03:53:15,INFO,Health check passed for service data-processor,auth-service,host-1
+2024-01-01 03:54:05,ERROR,NullPointerException in module UserController at line 457,payment-api,host-1
+2024-01-01 03:54:43,INFO,Health check passed for service payment-api,auth-service,host-1
+2024-01-01 03:54:49,ERROR,Configuration missing required key: app.yaml,auth-service,host-4
+2024-01-01 03:54:50,WARNING,Response time for /health exceeded 1129ms threshold,data-processor,host-4
+2024-01-01 03:54:55,WARNING,SSL certificate for example.com expires in 1 days,payment-api,host-2
+2024-01-01 03:55:15,WARNING,SSL certificate for example.com expires in 14 days,scheduler,host-2
+2024-01-01 03:55:37,INFO,Configuration file loaded: db.conf,scheduler,host-5
+2024-01-01 03:55:45,ERROR,API call to /api/v2/payments failed after 399 retries,user-service,host-3
+2024-01-01 03:56:38,INFO,Database connection established successfully,auth-service,host-4
+2024-01-01 03:56:40,INFO,New record inserted into table sessions,scheduler,host-1
+2024-01-01 03:57:10,WARNING,SSL certificate for example.com expires in 4 days,data-processor,host-4
+2024-01-01 03:57:34,WARNING,Slow query detected on table transactions: 1515ms,data-processor,host-1
+2024-01-01 03:57:55,INFO,User system logged in successfully from IP 10.0.0.7,scheduler,host-3
+2024-01-01 03:58:16,INFO,Scheduled job db-cleanup completed in 3257ms,scheduler,host-3
+2024-01-01 03:58:30,INFO,File backup.tar.gz uploaded successfully,auth-service,host-1
+2024-01-01 03:58:59,ERROR,Authentication token expired for user alice,data-processor,host-2
+2024-01-01 03:58:59,INFO,Scheduled job log-rotation completed in 4474ms,data-processor,host-2
+2024-01-01 03:59:48,INFO,Cache refreshed successfully for module AuthManager,payment-api,host-5
+2024-01-01 04:00:03,INFO,Configuration file loaded: secrets.env,payment-api,host-4
+2024-01-01 04:00:06,INFO,Service scheduler started on port 443,payment-api,host-2
+2024-01-01 04:00:44,ERROR,Unhandled exception in thread Thread-9: timeout,scheduler,host-3
+2024-01-01 04:00:56,INFO,Cache refreshed successfully for module DataExporter,scheduler,host-1
+2024-01-01 04:00:59,WARNING,Config value db.conf is using deprecated format,scheduler,host-1
+2024-01-01 04:01:08,INFO,API request to /data/export returned 200 OK,payment-api,host-4
+2024-01-01 04:01:57,CRITICAL,Database cluster redis-main is completely unreachable,scheduler,host-2
+2024-01-01 04:03:08,ERROR,NullPointerException in module DataExporter at line 113,auth-service,host-1
+2024-01-01 04:03:31,INFO,API request to /api/v2/payments returned 200 OK,payment-api,host-4
+2024-01-01 04:04:25,INFO,Scheduled job db-cleanup completed in 7125ms,scheduler,host-1
+2024-01-01 04:04:42,WARNING,Config value db.conf is using deprecated format,user-service,host-3
+2024-01-01 04:05:44,WARNING,Deprecated API endpoint /api/v2/payments called by charlie,payment-api,host-4
+2024-01-01 04:06:10,INFO,Email notification sent to system,data-processor,host-4
+2024-01-01 04:07:32,WARNING,User charlie attempted to access restricted resource,auth-service,host-4
+2024-01-01 04:07:39,ERROR,Data validation failed for field phone,auth-service,host-5
+2024-01-01 04:08:19,CRITICAL,Service data-processor has been down for 223 minutes,data-processor,host-2
+2024-01-01 04:09:00,INFO,Session created for user admin,user-service,host-3
+2024-01-01 04:09:15,INFO,Cache refreshed successfully for module AuthManager,payment-api,host-5
+2024-01-01 04:09:46,WARNING,Cache miss rate elevated: 74%,payment-api,host-1
+2024-01-01 04:10:15,WARNING,Cache miss rate elevated: 87%,payment-api,host-3
+2024-01-01 04:10:37,INFO,API request to /api/v2/payments returned 200 OK,data-processor,host-5
+2024-01-01 04:11:25,WARNING,SSL certificate for example.com expires in 7 days,user-service,host-4
+2024-01-01 04:11:32,INFO,Health check passed for service payment-api,auth-service,host-3
+2024-01-01 04:11:51,INFO,File data.csv uploaded successfully,data-processor,host-4
+2024-01-01 04:12:03,WARNING,Rate limit approaching for API key KEY-846,scheduler,host-4
+2024-01-01 04:12:12,INFO,User charlie logged in successfully from IP 192.168.1.9,data-processor,host-3
+2024-01-01 04:12:41,CRITICAL,Critical vulnerability CVE-2024-4663 actively exploited,payment-api,host-2
+2024-01-01 04:13:00,INFO,Service scheduler started on port 5432,user-service,host-1
+2024-01-01 04:13:11,INFO,Backup completed successfully for postgres-primary,data-processor,host-2
+2024-01-01 04:13:12,INFO,User charlie logged out,payment-api,host-1
+2024-01-01 04:13:31,ERROR,Failed to process payment for order ORD-8413: invalid card,auth-service,host-1
+2024-01-01 04:13:57,INFO,Service payment-api started on port 8080,auth-service,host-1
+2024-01-01 04:14:52,ERROR,Permission denied: user bob accessing /admin,payment-api,host-4
+2024-01-01 04:14:54,INFO,Configuration file loaded: app.yaml,user-service,host-1
+2024-01-01 04:15:09,WARNING,Cache miss rate elevated: 80%,user-service,host-5
+2024-01-01 04:16:00,WARNING,SSL certificate for example.com expires in 1 days,user-service,host-4
+2024-01-01 04:16:05,INFO,Email notification sent to bob,auth-service,host-3
+2024-01-01 04:16:52,INFO,Health check passed for service payment-api,scheduler,host-1
+2024-01-01 04:18:44,WARNING,User system attempted to access restricted resource,scheduler,host-1
+2024-01-01 04:19:11,INFO,API request to /health returned 200 OK,data-processor,host-1
+2024-01-01 04:19:12,INFO,Database connection established successfully,data-processor,host-1
+2024-01-01 04:19:23,ERROR,NullPointerException in module UserController at line 491,data-processor,host-2
+2024-01-01 04:20:02,INFO,Email notification sent to admin,scheduler,host-1
+2024-01-01 04:20:39,INFO,Session created for user dave,auth-service,host-4
+2024-01-01 04:20:42,INFO,Database connection established successfully,auth-service,host-4
+2024-01-01 04:21:04,INFO,Service payment-api started on port 5432,data-processor,host-4
+2024-01-01 04:21:12,CRITICAL,Ransomware activity suspected on host host-8,payment-api,host-1
+2024-01-01 04:21:24,WARNING,Retry attempt 50 for service scheduler,payment-api,host-5
+2024-01-01 04:21:36,INFO,API request to /api/v1/users returned 200 OK,auth-service,host-3
+2024-01-01 04:22:07,ERROR,Session SES-190 not found or expired,scheduler,host-3
+2024-01-01 04:22:07,WARNING,Timezone mismatch detected in request from 10.0.0.7,auth-service,host-1
+2024-01-01 04:22:46,WARNING,Rate limit approaching for API key KEY-963,scheduler,host-5
+2024-01-01 04:23:50,WARNING,Timezone mismatch detected in request from 192.168.1.22,auth-service,host-2
+2024-01-01 04:24:30,WARNING,User alice attempted to access restricted resource,data-processor,host-2
+2024-01-01 04:24:35,ERROR,Out of memory error in process 1497,auth-service,host-2
+2024-01-01 04:24:54,ERROR,API call to /health failed after 308 retries,scheduler,host-1
+2024-01-01 04:25:06,INFO,API request to /health returned 200 OK,auth-service,host-3
+2024-01-01 04:25:17,INFO,Session created for user dave,auth-service,host-3
+2024-01-01 04:25:46,INFO,User system logged out,user-service,host-2
+2024-01-01 04:25:47,ERROR,Configuration missing required key: app.yaml,payment-api,host-1
+2024-01-01 04:26:20,INFO,Cache refreshed successfully for module UserController,payment-api,host-2
+2024-01-01 04:26:27,ERROR,File not found: backup.tar.gz,user-service,host-2
+2024-01-01 04:26:28,INFO,User system logged in successfully from IP 192.168.1.6,payment-api,host-4
+2024-01-01 04:26:41,WARNING,Queue size for email-queue exceeds 446 messages,user-service,host-1
+2024-01-01 04:27:07,ERROR,Permission denied: user bob accessing /etc/passwd,data-processor,host-4
+2024-01-01 04:27:24,ERROR,Database connection failed: timeout after 7038ms,user-service,host-1
+2024-01-01 04:28:15,WARNING,Disk usage at 87% on volume nvme0n1,payment-api,host-3
+2024-01-01 04:28:44,INFO,Service user-service started on port 8080,auth-service,host-5
+2024-01-01 04:28:54,WARNING,Rate limit approaching for API key KEY-210,payment-api,host-4
+2024-01-01 04:29:25,INFO,Health check passed for service data-processor,user-service,host-1
+2024-01-01 04:29:49,ERROR,Failed to process payment for order ORD-7198: server error,scheduler,host-3
+2024-01-01 04:31:47,ERROR,Authentication token expired for user admin,payment-api,host-1
+2024-01-01 04:31:50,INFO,Session created for user charlie,payment-api,host-3
+2024-01-01 04:31:59,ERROR,API call to /login failed after 382 retries,user-service,host-1
+2024-01-01 04:32:14,WARNING,Retry attempt 238 for service auth-service,data-processor,host-2
+2024-01-01 04:33:06,CRITICAL,DDoS attack detected: 443 requests/sec from 10.0.0.3,user-service,host-3
+2024-01-01 04:35:45,INFO,Scheduled job nightly-backup completed in 7757ms,user-service,host-4
+2024-01-01 04:36:31,WARNING,Queue size for job-queue exceeds 207 messages,scheduler,host-2
+2024-01-01 04:37:30,INFO,Payment processed successfully for order ORD-2412,auth-service,host-5
+2024-01-01 04:37:35,WARNING,Queue size for email-queue exceeds 340 messages,scheduler,host-3
+2024-01-01 04:38:31,WARNING,Retry attempt 200 for service auth-service,data-processor,host-4
+2024-01-01 04:38:59,INFO,API request to /api/v2/payments returned 200 OK,user-service,host-4
+2024-01-01 04:39:13,WARNING,Slow query detected on table sessions: 2095ms,data-processor,host-2
+2024-01-01 04:40:14,INFO,New record inserted into table audit_logs,scheduler,host-1
+2024-01-01 04:40:38,INFO,Configuration file loaded: db.conf,user-service,host-5
+2024-01-01 04:40:46,ERROR,NullPointerException in module AuthManager at line 224,auth-service,host-1
+2024-01-01 04:42:23,INFO,User bob logged out,data-processor,host-2
+2024-01-01 04:43:29,CRITICAL,Ransomware activity suspected on host host-6,payment-api,host-5
+2024-01-01 04:43:33,CRITICAL,Backup restoration FAILED — data may be lost,auth-service,host-5
+2024-01-01 04:43:40,WARNING,Retry attempt 217 for service payment-api,scheduler,host-2
+2024-01-01 04:44:56,INFO,Service payment-api started on port 443,user-service,host-1
+2024-01-01 04:45:18,ERROR,Permission denied: user eve accessing /etc/passwd,scheduler,host-2
+2024-01-01 04:45:56,CRITICAL,Production deployment FAILED: rollback initiated,payment-api,host-2
+2024-01-01 04:46:08,INFO,Scheduled job nightly-backup completed in 5296ms,scheduler,host-5
+2024-01-01 04:46:26,INFO,Database connection established successfully,payment-api,host-1
+2024-01-01 04:47:30,INFO,API request to /login returned 200 OK,auth-service,host-4
+2024-01-01 04:47:32,ERROR,Failed to process payment for order ORD-5960: invalid card,auth-service,host-5
+2024-01-01 04:49:15,INFO,User system logged in successfully from IP 192.168.1.10,data-processor,host-2
+2024-01-01 04:49:53,WARNING,Timezone mismatch detected in request from 192.168.1.16,scheduler,host-2
+2024-01-01 04:51:10,ERROR,Data validation failed for field phone,auth-service,host-2
+2024-01-01 04:51:19,INFO,Configuration file loaded: db.conf,data-processor,host-1
+2024-01-01 04:51:36,ERROR,Database connection failed: timeout after 4660ms,user-service,host-5
+2024-01-01 04:51:38,INFO,File data.csv uploaded successfully,data-processor,host-3
+2024-01-01 04:52:22,INFO,Database connection established successfully,auth-service,host-1
+2024-01-01 04:53:12,INFO,API request to /api/v2/payments returned 200 OK,user-service,host-2
+2024-01-01 04:57:22,ERROR,Configuration missing required key: app.yaml,auth-service,host-1
+2024-01-01 04:57:23,WARNING,Slow query detected on table sessions: 371ms,data-processor,host-5
+2024-01-01 04:57:46,INFO,Scheduled job nightly-backup completed in 7242ms,scheduler,host-5
+2024-01-01 04:57:56,WARNING,Response time for /api/v2/payments exceeded 4377ms threshold,user-service,host-5
+2024-01-01 04:58:22,WARNING,Timezone mismatch detected in request from 192.168.1.29,scheduler,host-3
+2024-01-01 04:58:39,INFO,Database connection established successfully,scheduler,host-5
+2024-01-01 04:58:44,WARNING,SSL certificate for example.com expires in 16 days,data-processor,host-5
+2024-01-01 04:59:32,ERROR,Email delivery failed for system: server error,user-service,host-5
+2024-01-01 05:00:15,ERROR,Permission denied: user charlie accessing /etc/passwd,auth-service,host-3
+2024-01-01 05:00:17,CRITICAL,Database cluster postgres-primary is completely unreachable,data-processor,host-2
+2024-01-01 05:00:26,WARNING,SSL certificate for api.example.com expires in 20 days,user-service,host-4
+2024-01-01 05:00:48,CRITICAL,SSL private key KEY-490 has been compromised,auth-service,host-4
+2024-01-01 05:03:25,INFO,New record inserted into table products,auth-service,host-5
+2024-01-01 05:03:57,WARNING,Cache miss rate elevated: 71%,auth-service,host-5
+2024-01-01 05:04:15,CRITICAL,SSL private key KEY-888 has been compromised,payment-api,host-2
+2024-01-01 05:04:19,INFO,Database connection established successfully,auth-service,host-4
+2024-01-01 05:04:45,CRITICAL,CPU usage at 100% for 327 consecutive minutes,user-service,host-2
+2024-01-01 05:05:25,ERROR,File not found: backup.tar.gz,user-service,host-3
+2024-01-01 05:05:57,INFO,Database connection established successfully,data-processor,host-2
+2024-01-01 05:06:48,ERROR,File not found: data.csv,data-processor,host-4
+2024-01-01 05:07:08,INFO,New record inserted into table users,payment-api,host-5
+2024-01-01 05:07:26,WARNING,Slow query detected on table users: 7022ms,data-processor,host-3
+2024-01-01 05:07:32,INFO,Scheduled job db-cleanup completed in 7415ms,payment-api,host-2
+2024-01-01 05:07:36,ERROR,Database connection failed: timeout after 316ms,user-service,host-1
+2024-01-01 05:08:50,INFO,API request to /health returned 200 OK,user-service,host-5
+2024-01-01 05:09:05,ERROR,File not found: data.csv,auth-service,host-5
+2024-01-01 05:09:33,INFO,API request to /api/v2/payments returned 200 OK,user-service,host-1
+2024-01-01 05:09:47,WARNING,Disk usage at 84% on volume sda1,user-service,host-5
+2024-01-01 05:09:58,CRITICAL,CPU usage at 100% for 482 consecutive minutes,scheduler,host-1
+2024-01-01 05:10:16,ERROR,Session SES-851 not found or expired,payment-api,host-3
+2024-01-01 05:10:32,CRITICAL,CPU usage at 100% for 83 consecutive minutes,scheduler,host-3
+2024-01-01 05:10:32,INFO,Payment processed successfully for order ORD-6160,auth-service,host-4
+2024-01-01 05:10:59,WARNING,High memory usage detected: 95% utilization,auth-service,host-5
+2024-01-01 05:11:47,WARNING,Disk usage at 73% on volume nvme0n1,user-service,host-2
+2024-01-01 05:12:03,INFO,User charlie logged out,auth-service,host-4
+2024-01-01 05:12:54,CRITICAL,Memory leak detected — system will restart in 462s,payment-api,host-1
+2024-01-01 05:14:24,CRITICAL,CPU usage at 100% for 471 consecutive minutes,data-processor,host-3
+2024-01-01 05:15:10,ERROR,File not found: backup.tar.gz,payment-api,host-2
+2024-01-01 05:15:29,WARNING,Timezone mismatch detected in request from 192.168.1.24,auth-service,host-1
+2024-01-01 05:15:53,WARNING,Timezone mismatch detected in request from 192.168.1.22,auth-service,host-1
+2024-01-01 05:16:16,WARNING,Queue size for email-queue exceeds 11 messages,payment-api,host-3
+2024-01-01 05:17:09,INFO,Scheduled job nightly-backup completed in 6458ms,data-processor,host-1
+2024-01-01 05:17:22,INFO,Payment processed successfully for order ORD-8275,auth-service,host-2
+2024-01-01 05:17:49,WARNING,SSL certificate for example.com expires in 9 days,payment-api,host-2
+2024-01-01 05:18:27,WARNING,Disk usage at 64% on volume sdb2,scheduler,host-4
+2024-01-01 05:19:02,INFO,Email notification sent to system,payment-api,host-1
+2024-01-01 05:19:04,WARNING,Low available connections in pool: 34 remaining,payment-api,host-1
+2024-01-01 05:19:34,CRITICAL,Service payment-api has been down for 214 minutes,data-processor,host-4
+2024-01-01 05:19:52,INFO,Session created for user alice,scheduler,host-4
+2024-01-01 05:20:07,INFO,Service payment-api started on port 6379,scheduler,host-3
+2024-01-01 05:20:53,ERROR,Authentication token expired for user system,payment-api,host-3
+2024-01-01 05:21:00,INFO,Database connection established successfully,payment-api,host-2
+2024-01-01 05:21:38,CRITICAL,Service payment-api has been down for 208 minutes,data-processor,host-3
+2024-01-01 05:22:26,INFO,Email notification sent to system,scheduler,host-3
+2024-01-01 05:22:47,ERROR,Failed to process payment for order ORD-4924: timeout,scheduler,host-5
+2024-01-01 05:22:54,ERROR,Failed to process payment for order ORD-8502: insufficient funds,scheduler,host-3
+2024-01-01 05:23:05,INFO,User system logged out,data-processor,host-3
+2024-01-01 05:23:21,INFO,User alice logged in successfully from IP 192.168.1.4,auth-service,host-4
+2024-01-01 05:23:22,INFO,Session created for user system,user-service,host-5
+2024-01-01 05:23:35,ERROR,Email delivery failed for system: invalid card,user-service,host-1
+2024-01-01 05:23:54,INFO,User eve logged in successfully from IP 192.168.1.3,user-service,host-5
+2024-01-01 05:24:53,ERROR,API call to /api/v2/payments failed after 79 retries,scheduler,host-3
+2024-01-01 05:25:00,WARNING,Timezone mismatch detected in request from 10.0.0.2,payment-api,host-4
+2024-01-01 05:25:32,WARNING,Failed login attempt for user system from IP 192.168.1.15,user-service,host-4
+2024-01-01 05:25:42,WARNING,Slow query detected on table users: 3515ms,user-service,host-1
+2024-01-01 05:27:06,WARNING,Cache miss rate elevated: 96%,scheduler,host-5
+2024-01-01 05:27:29,INFO,API request to /data/export returned 200 OK,user-service,host-4
+2024-01-01 05:28:19,INFO,Cache refreshed successfully for module AuthManager,data-processor,host-1
+2024-01-01 05:28:28,INFO,User dave logged in successfully from IP 192.168.1.23,auth-service,host-2
+2024-01-01 05:28:42,INFO,API request to /api/v1/users returned 200 OK,scheduler,host-1
+2024-01-01 05:28:57,CRITICAL,All database replicas are out of sync,scheduler,host-5
+2024-01-01 05:29:27,ERROR,Data validation failed for field phone,auth-service,host-1
+2024-01-01 05:29:38,WARNING,User charlie attempted to access restricted resource,auth-service,host-5
+2024-01-01 05:30:06,CRITICAL,Service user-service has been down for 152 minutes,data-processor,host-3
+2024-01-01 05:30:13,INFO,File backup.tar.gz uploaded successfully,user-service,host-2
+2024-01-01 05:32:44,INFO,User charlie logged out,payment-api,host-1
+2024-01-01 05:32:48,INFO,Service payment-api started on port 3000,payment-api,host-3
+2024-01-01 05:33:19,INFO,Service payment-api started on port 443,user-service,host-5
+2024-01-01 05:33:38,ERROR,NullPointerException in module PaymentProcessor at line 413,user-service,host-5
+2024-01-01 05:33:39,CRITICAL,SSL private key KEY-887 has been compromised,user-service,host-5
+2024-01-01 05:33:55,ERROR,Data validation failed for field phone,data-processor,host-3
+2024-01-01 05:34:04,WARNING,Disk usage at 69% on volume sda1,auth-service,host-3
+2024-01-01 05:34:24,WARNING,Retry attempt 98 for service scheduler,scheduler,host-3
+2024-01-01 05:34:41,INFO,Backup completed successfully for postgres-primary,auth-service,host-2
+2024-01-01 05:35:07,INFO,File report.pdf uploaded successfully,scheduler,host-1
+2024-01-01 05:35:09,WARNING,User admin attempted to access restricted resource,scheduler,host-3
+2024-01-01 05:35:18,WARNING,SSL certificate for api.example.com expires in 25 days,user-service,host-2
+2024-01-01 05:35:21,INFO,New record inserted into table transactions,scheduler,host-5
+2024-01-01 05:35:24,INFO,Email notification sent to bob,payment-api,host-3
+2024-01-01 05:35:33,WARNING,Deprecated API endpoint /api/v2/payments called by eve,data-processor,host-4
+2024-01-01 05:36:42,INFO,Configuration file loaded: db.conf,user-service,host-2
+2024-01-01 05:37:01,WARNING,User alice attempted to access restricted resource,data-processor,host-1
+2024-01-01 05:37:19,WARNING,Response time for /health exceeded 8786ms threshold,data-processor,host-2
+2024-01-01 05:37:30,WARNING,Low available connections in pool: 217 remaining,scheduler,host-5
+2024-01-01 05:37:48,WARNING,Queue size for job-queue exceeds 266 messages,user-service,host-5
+2024-01-01 05:38:11,INFO,Configuration file loaded: app.yaml,scheduler,host-5
+2024-01-01 05:38:37,INFO,File data.csv uploaded successfully,auth-service,host-5
+2024-01-01 05:39:43,ERROR,File not found: backup.tar.gz,auth-service,host-1
+2024-01-01 05:39:46,ERROR,Permission denied: user charlie accessing /admin,user-service,host-5
+2024-01-01 05:40:14,ERROR,Failed to process payment for order ORD-8202: insufficient funds,auth-service,host-2
+2024-01-01 05:40:37,INFO,Backup completed successfully for redis-main,data-processor,host-3
+2024-01-01 05:41:00,WARNING,Deprecated API endpoint /api/v2/payments called by eve,auth-service,host-3
+2024-01-01 05:42:14,WARNING,Slow query detected on table transactions: 1569ms,payment-api,host-3
+2024-01-01 05:42:24,ERROR,Service user-service returned HTTP 500,payment-api,host-4
+2024-01-01 05:42:48,INFO,Cache refreshed successfully for module UserController,user-service,host-3
+2024-01-01 05:43:49,INFO,Email notification sent to dave,data-processor,host-2
+2024-01-01 05:44:15,WARNING,Deprecated API endpoint /login called by admin,payment-api,host-5
+2024-01-01 05:44:55,ERROR,Database connection failed: timeout after 7631ms,data-processor,host-4
+2024-01-01 05:45:38,INFO,Health check passed for service auth-service,scheduler,host-1
+2024-01-01 05:45:52,INFO,User dave logged out,user-service,host-2
+2024-01-01 05:46:23,INFO,Service data-processor started on port 443,payment-api,host-4
+2024-01-01 05:46:26,WARNING,Retry attempt 231 for service scheduler,user-service,host-3
+2024-01-01 05:47:12,INFO,Health check passed for service payment-api,auth-service,host-4
+2024-01-01 05:47:15,ERROR,Data validation failed for field email,scheduler,host-1
+2024-01-01 05:47:24,INFO,Cache refreshed successfully for module UserController,auth-service,host-2
+2024-01-01 05:48:17,ERROR,Unhandled exception in thread Thread-17: invalid card,data-processor,host-4
+2024-01-01 05:48:49,INFO,API request to /api/v1/users returned 200 OK,user-service,host-1
+2024-01-01 05:49:21,INFO,User bob logged out,scheduler,host-4
+2024-01-01 05:49:59,INFO,File backup.tar.gz uploaded successfully,auth-service,host-1
+2024-01-01 05:50:21,WARNING,High memory usage detected: 66% utilization,payment-api,host-1
+2024-01-01 05:50:47,INFO,API request to /health returned 200 OK,payment-api,host-1
+2024-01-01 05:50:50,WARNING,SSL certificate for api.example.com expires in 26 days,data-processor,host-1
+2024-01-01 05:52:53,INFO,Scheduled job db-cleanup completed in 3059ms,payment-api,host-4
+2024-01-01 05:53:24,INFO,Service payment-api started on port 6379,payment-api,host-4
+2024-01-01 05:53:47,INFO,Payment processed successfully for order ORD-7215,data-processor,host-3
+2024-01-01 05:54:16,WARNING,Response time for /data/export exceeded 6663ms threshold,user-service,host-4
+2024-01-01 05:54:22,WARNING,High memory usage detected: 69% utilization,auth-service,host-5
+2024-01-01 05:54:44,ERROR,Data validation failed for field email,scheduler,host-1
+2024-01-01 05:56:10,ERROR,Unhandled exception in thread Thread-3: timeout,payment-api,host-5
+2024-01-01 05:57:49,INFO,User bob logged in successfully from IP 192.168.1.1,scheduler,host-2
+2024-01-01 05:57:58,WARNING,High memory usage detected: 69% utilization,payment-api,host-2
+2024-01-01 05:58:11,INFO,User charlie logged in successfully from IP 192.168.1.11,payment-api,host-1
+2024-01-01 05:58:20,INFO,User alice logged in successfully from IP 10.0.0.7,user-service,host-2
+2024-01-01 05:59:54,ERROR,Out of memory error in process 6064,user-service,host-5
+2024-01-01 06:01:31,INFO,Health check passed for service payment-api,data-processor,host-5
+2024-01-01 06:02:29,INFO,Session created for user charlie,data-processor,host-5
+2024-01-01 06:02:34,INFO,Service data-processor started on port 443,payment-api,host-3
+2024-01-01 06:03:08,ERROR,Unhandled exception in thread Thread-12: timeout,payment-api,host-1
+2024-01-01 06:03:12,INFO,Cache refreshed successfully for module AuthManager,auth-service,host-2
+2024-01-01 06:03:15,WARNING,Config value app.yaml is using deprecated format,data-processor,host-3
+2024-01-01 06:03:23,WARNING,Config value app.yaml is using deprecated format,user-service,host-4
+2024-01-01 06:03:43,INFO,Scheduled job db-cleanup completed in 7380ms,payment-api,host-4
+2024-01-01 06:05:23,INFO,User alice logged out,data-processor,host-3
+2024-01-01 06:06:15,INFO,User dave logged in successfully from IP 192.168.1.14,scheduler,host-1
+2024-01-01 06:07:05,INFO,Scheduled job db-cleanup completed in 1217ms,data-processor,host-3
+2024-01-01 06:07:49,INFO,API request to /data/export returned 200 OK,data-processor,host-1
+2024-01-01 06:08:33,ERROR,API call to /login failed after 14 retries,scheduler,host-2
+2024-01-01 06:08:52,WARNING,Deprecated API endpoint /api/v2/payments called by alice,scheduler,host-5
+2024-01-01 06:09:46,CRITICAL,CPU usage at 100% for 244 consecutive minutes,scheduler,host-1
+2024-01-01 06:10:02,WARNING,High memory usage detected: 97% utilization,data-processor,host-3
+2024-01-01 06:10:47,INFO,File data.csv uploaded successfully,payment-api,host-2
+2024-01-01 06:10:48,INFO,File data.csv uploaded successfully,data-processor,host-5
+2024-01-01 06:10:49,WARNING,Cache miss rate elevated: 96%,user-service,host-1
+2024-01-01 06:12:14,INFO,Scheduled job log-rotation completed in 3057ms,auth-service,host-5
+2024-01-01 06:12:21,WARNING,Disk usage at 65% on volume sda1,scheduler,host-3
+2024-01-01 06:12:34,INFO,Backup completed successfully for postgres-primary,user-service,host-2
+2024-01-01 06:13:03,INFO,API request to /api/v2/payments returned 200 OK,payment-api,host-4
+2024-01-01 06:13:30,ERROR,Configuration missing required key: app.yaml,data-processor,host-3
+2024-01-01 06:14:11,INFO,New record inserted into table audit_logs,scheduler,host-1
+2024-01-01 06:14:38,INFO,Backup completed successfully for mongo-cluster,auth-service,host-5
+2024-01-01 06:15:05,WARNING,Timezone mismatch detected in request from 192.168.1.21,data-processor,host-4
+2024-01-01 06:16:19,INFO,Database connection established successfully,payment-api,host-2
+2024-01-01 06:17:02,WARNING,Retry attempt 425 for service user-service,scheduler,host-3
+2024-01-01 06:17:17,INFO,Session created for user admin,payment-api,host-5
+2024-01-01 06:18:00,ERROR,Email delivery failed for alice: server error,payment-api,host-1
+2024-01-01 06:18:20,INFO,User alice logged in successfully from IP 192.168.1.5,data-processor,host-4
+2024-01-01 06:18:52,INFO,Cache refreshed successfully for module DataExporter,payment-api,host-2
+2024-01-01 06:19:38,INFO,File data.csv uploaded successfully,payment-api,host-3
+2024-01-01 06:20:06,INFO,User admin logged in successfully from IP 192.168.1.28,user-service,host-3
+2024-01-01 06:20:23,INFO,Scheduled job nightly-backup completed in 7400ms,auth-service,host-5
+2024-01-01 06:20:35,WARNING,Rate limit approaching for API key KEY-899,data-processor,host-5
+2024-01-01 06:22:09,WARNING,Failed login attempt for user bob from IP 192.168.1.4,auth-service,host-2
+2024-01-01 06:22:27,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.1,data-processor,host-4
+2024-01-01 06:23:00,INFO,Health check passed for service auth-service,payment-api,host-3
+2024-01-01 06:23:34,INFO,API request to /health returned 200 OK,data-processor,host-2
+2024-01-01 06:23:40,INFO,Service payment-api started on port 8080,user-service,host-5
+2024-01-01 06:23:49,INFO,Cache refreshed successfully for module DataExporter,auth-service,host-3
+2024-01-01 06:23:58,WARNING,Disk usage at 75% on volume sda1,auth-service,host-4
+2024-01-01 06:24:30,INFO,Payment processed successfully for order ORD-3557,scheduler,host-4
+2024-01-01 06:24:54,WARNING,Cache miss rate elevated: 61%,payment-api,host-1
+2024-01-01 06:25:18,WARNING,User alice attempted to access restricted resource,payment-api,host-3
+2024-01-01 06:25:26,WARNING,Low available connections in pool: 1 remaining,user-service,host-2
+2024-01-01 06:26:02,INFO,API request to /api/v1/users returned 200 OK,auth-service,host-4
+2024-01-01 06:26:17,INFO,Payment processed successfully for order ORD-3210,data-processor,host-5
+2024-01-01 06:26:43,INFO,New record inserted into table products,payment-api,host-1
+2024-01-01 06:27:06,ERROR,Authentication token expired for user eve,user-service,host-5
+2024-01-01 06:27:08,INFO,User bob logged in successfully from IP 10.0.0.8,user-service,host-2
+2024-01-01 06:27:09,CRITICAL,Disk nvme0n1 is FULL — writes are failing,scheduler,host-3
+2024-01-01 06:29:03,INFO,Payment processed successfully for order ORD-4695,data-processor,host-3
+2024-01-01 06:29:05,INFO,Payment processed successfully for order ORD-8934,data-processor,host-4
+2024-01-01 06:29:06,WARNING,Retry attempt 46 for service payment-api,payment-api,host-3
+2024-01-01 06:29:07,ERROR,Unhandled exception in thread Thread-2: timeout,user-service,host-1
+2024-01-01 06:29:34,ERROR,Configuration missing required key: secrets.env,user-service,host-1
+2024-01-01 06:30:06,WARNING,High memory usage detected: 65% utilization,auth-service,host-4
+2024-01-01 06:30:26,WARNING,Low available connections in pool: 416 remaining,user-service,host-2
+2024-01-01 06:31:15,INFO,File backup.tar.gz uploaded successfully,auth-service,host-3
+2024-01-01 06:31:30,INFO,Session created for user eve,data-processor,host-5
+2024-01-01 06:32:41,INFO,New record inserted into table transactions,scheduler,host-1
+2024-01-01 06:33:08,CRITICAL,SYSTEM CRASH: Kernel panic in process 1682,auth-service,host-2
+2024-01-01 06:34:07,INFO,New record inserted into table sessions,scheduler,host-2
+2024-01-01 06:34:17,ERROR,Authentication token expired for user admin,auth-service,host-3
+2024-01-01 06:34:35,WARNING,Cache miss rate elevated: 82%,user-service,host-2
+2024-01-01 06:34:41,INFO,Scheduled job db-cleanup completed in 7297ms,data-processor,host-4
+2024-01-01 06:36:21,CRITICAL,Critical vulnerability CVE-2023-2453 actively exploited,scheduler,host-3
+2024-01-01 06:36:30,INFO,File backup.tar.gz uploaded successfully,user-service,host-2
+2024-01-01 06:37:13,ERROR,Session SES-357 not found or expired,scheduler,host-2
+2024-01-01 06:37:21,ERROR,Unhandled exception in thread Thread-15: server error,payment-api,host-5
+2024-01-01 06:38:57,INFO,User system logged in successfully from IP 192.168.1.19,auth-service,host-2
+2024-01-01 06:39:11,INFO,Session created for user charlie,data-processor,host-2
+2024-01-01 06:39:11,INFO,Email notification sent to dave,scheduler,host-1
+2024-01-01 06:39:20,ERROR,Unhandled exception in thread Thread-4: timeout,user-service,host-5
+2024-01-01 06:39:31,CRITICAL,Data corruption detected in table products,payment-api,host-2
+2024-01-01 06:39:37,WARNING,Retry attempt 206 for service data-processor,user-service,host-5
+2024-01-01 06:39:54,INFO,Cache refreshed successfully for module PaymentProcessor,data-processor,host-3
+2024-01-01 06:40:06,WARNING,Retry attempt 267 for service user-service,user-service,host-3
+2024-01-01 06:40:18,INFO,New record inserted into table transactions,scheduler,host-3
+2024-01-01 06:41:08,INFO,New record inserted into table products,scheduler,host-4
+2024-01-01 06:41:12,INFO,Database connection established successfully,scheduler,host-5
+2024-01-01 06:41:14,WARNING,SSL certificate for example.com expires in 15 days,scheduler,host-4
+2024-01-01 06:41:32,WARNING,Response time for /data/export exceeded 7019ms threshold,auth-service,host-3
+2024-01-01 06:42:11,INFO,Session created for user admin,user-service,host-5
+2024-01-01 06:42:22,WARNING,Low available connections in pool: 117 remaining,scheduler,host-3
+2024-01-01 06:43:12,CRITICAL,All database replicas are out of sync,scheduler,host-5
+2024-01-01 06:43:22,WARNING,Low available connections in pool: 78 remaining,auth-service,host-5
+2024-01-01 06:44:26,WARNING,Disk usage at 92% on volume sda1,user-service,host-5
+2024-01-01 06:44:58,ERROR,Email delivery failed for charlie: server error,auth-service,host-3
+2024-01-01 06:45:10,WARNING,Slow query detected on table transactions: 5906ms,payment-api,host-2
+2024-01-01 06:47:04,ERROR,Failed to write to disk: insufficient funds,data-processor,host-5
+2024-01-01 06:47:54,INFO,Payment processed successfully for order ORD-4582,auth-service,host-5
+2024-01-01 06:48:09,WARNING,Config value secrets.env is using deprecated format,data-processor,host-2
+2024-01-01 06:48:20,ERROR,Failed to write to disk: insufficient funds,user-service,host-1
+2024-01-01 06:48:28,ERROR,Failed to write to disk: timeout,payment-api,host-1
+2024-01-01 06:48:52,INFO,Health check passed for service data-processor,data-processor,host-5
+2024-01-01 06:49:00,INFO,Configuration file loaded: secrets.env,data-processor,host-1
+2024-01-01 06:49:03,INFO,Backup completed successfully for redis-main,auth-service,host-2
+2024-01-01 06:49:44,INFO,Service payment-api started on port 5432,user-service,host-5
+2024-01-01 06:50:37,INFO,Service user-service started on port 6379,auth-service,host-1
+2024-01-01 06:50:40,WARNING,Queue size for email-queue exceeds 249 messages,data-processor,host-3
+2024-01-01 06:50:44,ERROR,Failed to write to disk: invalid card,user-service,host-2
+2024-01-01 06:50:50,WARNING,Response time for /api/v1/users exceeded 6748ms threshold,scheduler,host-2
+2024-01-01 06:50:56,INFO,Configuration file loaded: secrets.env,data-processor,host-3
+2024-01-01 06:51:08,INFO,Database connection established successfully,payment-api,host-5
+2024-01-01 06:51:27,INFO,Health check passed for service auth-service,data-processor,host-5
+2024-01-01 06:52:03,INFO,New record inserted into table products,payment-api,host-5
+2024-01-01 06:53:24,INFO,Scheduled job log-rotation completed in 5432ms,scheduler,host-1
+2024-01-01 06:53:27,ERROR,Unhandled exception in thread Thread-18: server error,scheduler,host-2
+2024-01-01 06:53:31,CRITICAL,Service payment-api has been down for 106 minutes,auth-service,host-2
+2024-01-01 06:53:46,WARNING,Retry attempt 112 for service auth-service,scheduler,host-1
+2024-01-01 06:53:49,ERROR,Service scheduler returned HTTP 500,auth-service,host-1
+2024-01-01 06:55:22,ERROR,API call to /api/v1/users failed after 458 retries,scheduler,host-1
+2024-01-01 06:56:04,INFO,Session created for user eve,auth-service,host-3
+2024-01-01 06:56:50,INFO,Email notification sent to alice,scheduler,host-2
+2024-01-01 06:58:35,INFO,API request to /api/v1/users returned 200 OK,auth-service,host-2
+2024-01-01 06:58:38,INFO,Configuration file loaded: db.conf,scheduler,host-5
+2024-01-01 06:58:47,WARNING,Timezone mismatch detected in request from 192.168.1.25,auth-service,host-4
+2024-01-01 06:58:52,INFO,Payment processed successfully for order ORD-2359,auth-service,host-1
+2024-01-01 07:00:36,CRITICAL,Disk sda1 is FULL — writes are failing,user-service,host-1
+2024-01-01 07:00:59,INFO,User bob logged out,user-service,host-4
+2024-01-01 07:02:18,INFO,File backup.tar.gz uploaded successfully,auth-service,host-5
+2024-01-01 07:02:30,ERROR,Configuration missing required key: db.conf,payment-api,host-1
+2024-01-01 07:02:37,WARNING,Config value db.conf is using deprecated format,scheduler,host-1
+2024-01-01 07:03:13,INFO,Database connection established successfully,scheduler,host-1
+2024-01-01 07:03:23,ERROR,Database connection failed: timeout after 8439ms,user-service,host-2
+2024-01-01 07:03:30,WARNING,Cache miss rate elevated: 79%,user-service,host-4
+2024-01-01 07:03:32,CRITICAL,Data corruption detected in table products,data-processor,host-2
+2024-01-01 07:03:35,INFO,Database connection established successfully,scheduler,host-1
+2024-01-01 07:03:46,ERROR,Failed to write to disk: timeout,auth-service,host-4
+2024-01-01 07:03:51,ERROR,Permission denied: user system accessing /admin,user-service,host-4
+2024-01-01 07:04:01,WARNING,User bob attempted to access restricted resource,user-service,host-4
+2024-01-01 07:04:25,INFO,Service scheduler started on port 3000,auth-service,host-2
+2024-01-01 07:04:39,WARNING,Config value app.yaml is using deprecated format,payment-api,host-3
+2024-01-01 07:04:57,WARNING,Slow query detected on table products: 3469ms,user-service,host-2
+2024-01-01 07:05:33,INFO,Database connection established successfully,payment-api,host-3
+2024-01-01 07:06:23,WARNING,Config value secrets.env is using deprecated format,user-service,host-1
+2024-01-01 07:06:52,WARNING,Deprecated API endpoint /health called by charlie,auth-service,host-4
+2024-01-01 07:06:52,INFO,Session created for user eve,payment-api,host-2
+2024-01-01 07:07:49,ERROR,Configuration missing required key: app.yaml,scheduler,host-2
+2024-01-01 07:09:13,WARNING,Low available connections in pool: 59 remaining,user-service,host-1
+2024-01-01 07:10:05,CRITICAL,Critical vulnerability CVE-2022-7646 actively exploited,data-processor,host-5
+2024-01-01 07:10:18,WARNING,User charlie attempted to access restricted resource,scheduler,host-3
+2024-01-01 07:10:19,CRITICAL,All database replicas are out of sync,scheduler,host-5
+2024-01-01 07:10:25,INFO,Health check passed for service data-processor,user-service,host-2
+2024-01-01 07:10:40,WARNING,Response time for /health exceeded 759ms threshold,user-service,host-3
+2024-01-01 07:10:42,INFO,Email notification sent to system,auth-service,host-1
+2024-01-01 07:11:46,WARNING,Disk usage at 72% on volume sda1,data-processor,host-4
+2024-01-01 07:11:49,WARNING,Timezone mismatch detected in request from 192.168.1.8,payment-api,host-3
+2024-01-01 07:13:16,CRITICAL,Disk sda1 is FULL — writes are failing,user-service,host-1
+2024-01-01 07:13:57,INFO,Service payment-api started on port 8080,auth-service,host-5
+2024-01-01 07:14:03,INFO,Health check passed for service scheduler,user-service,host-3
+2024-01-01 07:15:01,WARNING,Disk usage at 62% on volume sda1,data-processor,host-2
+2024-01-01 07:15:41,ERROR,Out of memory error in process 1058,payment-api,host-5
+2024-01-01 07:16:12,CRITICAL,DDoS attack detected: 218 requests/sec from 192.168.1.5,payment-api,host-2
+2024-01-01 07:16:45,INFO,Service scheduler started on port 6379,auth-service,host-5
+2024-01-01 07:17:12,INFO,Cache refreshed successfully for module UserController,scheduler,host-3
+2024-01-01 07:17:12,WARNING,SSL certificate for internal.company.io expires in 23 days,scheduler,host-1
+2024-01-01 07:17:31,WARNING,Deprecated API endpoint /health called by admin,user-service,host-1
+2024-01-01 07:18:16,INFO,Payment processed successfully for order ORD-9755,user-service,host-5
+2024-01-01 07:18:52,INFO,Backup completed successfully for postgres-primary,scheduler,host-3
+2024-01-01 07:18:57,INFO,Scheduled job db-cleanup completed in 3504ms,payment-api,host-4
+2024-01-01 07:20:24,WARNING,Failed login attempt for user alice from IP 10.0.0.3,user-service,host-4
+2024-01-01 07:20:56,ERROR,Unhandled exception in thread Thread-13: invalid card,data-processor,host-4
+2024-01-01 07:21:10,INFO,New record inserted into table sessions,scheduler,host-2
+2024-01-01 07:21:32,INFO,Database connection established successfully,scheduler,host-3
+2024-01-01 07:21:36,INFO,Database connection established successfully,payment-api,host-3
+2024-01-01 07:22:02,INFO,User bob logged out,auth-service,host-5
+2024-01-01 07:22:54,WARNING,Low available connections in pool: 213 remaining,data-processor,host-3
+2024-01-01 07:24:33,WARNING,Cache miss rate elevated: 71%,auth-service,host-4
+2024-01-01 07:25:14,CRITICAL,Service auth-service has been down for 158 minutes,data-processor,host-3
+2024-01-01 07:25:28,ERROR,Failed to process payment for order ORD-8644: timeout,user-service,host-2
+2024-01-01 07:25:45,WARNING,Deprecated API endpoint /api/v1/users called by admin,auth-service,host-5
+2024-01-01 07:26:05,ERROR,Failed to process payment for order ORD-8129: server error,user-service,host-2
+2024-01-01 07:26:07,INFO,User alice logged in successfully from IP 192.168.1.1,auth-service,host-5
+2024-01-01 07:26:52,ERROR,Authentication token expired for user dave,auth-service,host-5
+2024-01-01 07:27:03,INFO,Service scheduler started on port 3000,scheduler,host-1
+2024-01-01 07:27:22,WARNING,Config value app.yaml is using deprecated format,auth-service,host-5
+2024-01-01 07:27:36,ERROR,Session SES-549 not found or expired,scheduler,host-4
+2024-01-01 07:28:18,ERROR,Service user-service returned HTTP 500,user-service,host-4
+2024-01-01 07:29:23,INFO,Health check passed for service payment-api,data-processor,host-5
+2024-01-01 07:31:16,INFO,API request to /health returned 200 OK,data-processor,host-3
+2024-01-01 07:31:43,INFO,User charlie logged in successfully from IP 192.168.1.25,scheduler,host-5
+2024-01-01 07:32:22,ERROR,Unhandled exception in thread Thread-17: server error,auth-service,host-4
+2024-01-01 07:32:25,INFO,Payment processed successfully for order ORD-6773,scheduler,host-5
+2024-01-01 07:32:56,ERROR,Database connection failed: timeout after 1914ms,user-service,host-5
+2024-01-01 07:32:57,ERROR,Authentication token expired for user system,user-service,host-1
+2024-01-01 07:33:15,INFO,User eve logged out,payment-api,host-1
+2024-01-01 07:33:26,INFO,User eve logged in successfully from IP 192.168.1.1,payment-api,host-3
+2024-01-01 07:33:57,ERROR,NullPointerException in module AuthManager at line 160,auth-service,host-5
+2024-01-01 07:34:20,ERROR,Out of memory error in process 5579,data-processor,host-4
+2024-01-01 07:34:33,ERROR,NullPointerException in module DataExporter at line 108,scheduler,host-2
+2024-01-01 07:34:47,INFO,New record inserted into table products,payment-api,host-2
+2024-01-01 07:35:10,INFO,Cache refreshed successfully for module PaymentProcessor,user-service,host-2
+2024-01-01 07:35:30,INFO,Email notification sent to eve,payment-api,host-5
+2024-01-01 07:36:00,CRITICAL,SSL private key KEY-959 has been compromised,user-service,host-2
+2024-01-01 07:36:24,CRITICAL,Data corruption detected in table audit_logs,user-service,host-4
+2024-01-01 07:36:27,INFO,User charlie logged out,user-service,host-3
+2024-01-01 07:37:10,INFO,Configuration file loaded: app.yaml,user-service,host-4
+2024-01-01 07:37:26,INFO,Health check passed for service user-service,auth-service,host-5
+2024-01-01 07:37:58,INFO,Cache refreshed successfully for module AuthManager,payment-api,host-2
+2024-01-01 07:38:01,INFO,Database connection established successfully,scheduler,host-5
+2024-01-01 07:39:11,WARNING,Timezone mismatch detected in request from 10.0.0.3,user-service,host-1
+2024-01-01 07:39:20,INFO,User dave logged out,data-processor,host-3
+2024-01-01 07:39:59,INFO,Email notification sent to charlie,scheduler,host-3
+2024-01-01 07:40:51,INFO,Session created for user system,auth-service,host-3
+2024-01-01 07:41:29,WARNING,SSL certificate for internal.company.io expires in 3 days,user-service,host-1
+2024-01-01 07:41:41,ERROR,Email delivery failed for bob: invalid card,payment-api,host-3
+2024-01-01 07:41:59,ERROR,Failed to write to disk: server error,scheduler,host-2
+2024-01-01 07:41:59,INFO,Configuration file loaded: secrets.env,data-processor,host-4
+2024-01-01 07:42:12,WARNING,Deprecated API endpoint /data/export called by eve,scheduler,host-4
+2024-01-01 07:42:53,INFO,Payment processed successfully for order ORD-2485,payment-api,host-1
+2024-01-01 07:42:59,ERROR,Authentication token expired for user alice,data-processor,host-5
+2024-01-01 07:43:58,WARNING,Rate limit approaching for API key KEY-195,payment-api,host-1
+2024-01-01 07:44:28,INFO,New record inserted into table audit_logs,auth-service,host-1
+2024-01-01 07:46:04,WARNING,Timezone mismatch detected in request from 10.0.0.7,user-service,host-5
+2024-01-01 07:46:05,ERROR,Failed to write to disk: insufficient funds,user-service,host-3
+2024-01-01 07:46:22,INFO,API request to /login returned 200 OK,auth-service,host-3
+2024-01-01 07:46:42,WARNING,Slow query detected on table sessions: 302ms,user-service,host-2
+2024-01-01 07:46:53,INFO,Scheduled job nightly-backup completed in 7819ms,payment-api,host-2
+2024-01-01 07:47:15,INFO,API request to /api/v2/payments returned 200 OK,scheduler,host-2
+2024-01-01 07:47:35,INFO,Cache refreshed successfully for module DataExporter,scheduler,host-4
+2024-01-01 07:48:09,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.21,payment-api,host-1
+2024-01-01 07:49:23,INFO,Scheduled job db-cleanup completed in 1856ms,scheduler,host-5
+2024-01-01 07:50:06,INFO,Email notification sent to alice,payment-api,host-5
+2024-01-01 07:50:12,INFO,Session created for user dave,payment-api,host-1
+2024-01-01 07:51:15,CRITICAL,DDoS attack detected: 204 requests/sec from 10.0.0.7,user-service,host-1
+2024-01-01 07:51:48,ERROR,Out of memory error in process 3913,scheduler,host-4
+2024-01-01 07:51:57,INFO,Configuration file loaded: secrets.env,scheduler,host-1
+2024-01-01 07:52:17,CRITICAL,Memory leak detected — system will restart in 440s,payment-api,host-2
+2024-01-01 07:52:31,INFO,API request to /login returned 200 OK,data-processor,host-5
+2024-01-01 07:52:41,INFO,New record inserted into table transactions,user-service,host-4
+2024-01-01 07:53:14,INFO,Payment processed successfully for order ORD-9180,auth-service,host-1
+2024-01-01 07:53:32,INFO,Health check passed for service scheduler,payment-api,host-4
+2024-01-01 07:53:52,INFO,New record inserted into table products,user-service,host-2
+2024-01-01 07:54:12,INFO,Session created for user bob,user-service,host-2
+2024-01-01 07:55:41,WARNING,Deprecated API endpoint /data/export called by system,scheduler,host-2
+2024-01-01 07:56:37,ERROR,Failed to write to disk: server error,payment-api,host-5
+2024-01-01 07:57:29,WARNING,Response time for /api/v1/users exceeded 7076ms threshold,data-processor,host-2
+2024-01-01 07:57:52,ERROR,Database connection failed: timeout after 6519ms,data-processor,host-2
+2024-01-01 07:59:28,INFO,User charlie logged in successfully from IP 10.0.0.5,data-processor,host-1
+2024-01-01 07:59:40,ERROR,Configuration missing required key: secrets.env,data-processor,host-5
+2024-01-01 07:59:44,INFO,User dave logged in successfully from IP 192.168.1.12,payment-api,host-5
+2024-01-01 07:59:52,ERROR,File not found: data.csv,auth-service,host-1
+2024-01-01 07:59:57,WARNING,Deprecated API endpoint /login called by alice,auth-service,host-2
+2024-01-01 08:00:06,CRITICAL,Disk sda1 is FULL — writes are failing,payment-api,host-1
+2024-01-01 08:00:36,INFO,Scheduled job log-rotation completed in 4378ms,user-service,host-3
+2024-01-01 08:00:42,INFO,Session created for user admin,user-service,host-5
+2024-01-01 08:00:54,CRITICAL,Production deployment FAILED: rollback initiated,scheduler,host-4
+2024-01-01 08:01:58,ERROR,API call to /login failed after 29 retries,payment-api,host-1
+2024-01-01 08:02:14,CRITICAL,Production deployment FAILED: rollback initiated,payment-api,host-2
+2024-01-01 08:02:27,WARNING,SSL certificate for internal.company.io expires in 11 days,user-service,host-3
+2024-01-01 08:04:06,ERROR,Unhandled exception in thread Thread-8: invalid card,data-processor,host-1
+2024-01-01 08:05:15,INFO,Email notification sent to charlie,user-service,host-3
+2024-01-01 08:05:19,INFO,Scheduled job log-rotation completed in 8349ms,user-service,host-3
+2024-01-01 08:05:21,INFO,Backup completed successfully for redis-main,user-service,host-5
+2024-01-01 08:06:42,ERROR,Service scheduler returned HTTP 500,auth-service,host-5
+2024-01-01 08:07:12,INFO,Configuration file loaded: secrets.env,scheduler,host-2
+2024-01-01 08:07:54,WARNING,Retry attempt 172 for service scheduler,scheduler,host-4
+2024-01-01 08:07:59,INFO,Session created for user alice,user-service,host-4
+2024-01-01 08:08:03,ERROR,Configuration missing required key: app.yaml,user-service,host-4
+2024-01-01 08:08:10,INFO,Cache refreshed successfully for module PaymentProcessor,payment-api,host-2
+2024-01-01 08:08:25,ERROR,Authentication token expired for user dave,data-processor,host-4
+2024-01-01 08:09:12,ERROR,NullPointerException in module AuthManager at line 29,data-processor,host-5
+2024-01-01 08:09:32,ERROR,Out of memory error in process 4218,scheduler,host-1
+2024-01-01 08:09:42,ERROR,Out of memory error in process 3962,payment-api,host-2
+2024-01-01 08:09:52,INFO,Cache refreshed successfully for module PaymentProcessor,scheduler,host-3
+2024-01-01 08:10:22,WARNING,Failed login attempt for user bob from IP 192.168.1.20,auth-service,host-5
+2024-01-01 08:11:00,INFO,Configuration file loaded: app.yaml,payment-api,host-1
+2024-01-01 08:12:02,INFO,Health check passed for service user-service,data-processor,host-1
+2024-01-01 08:12:59,WARNING,Low available connections in pool: 496 remaining,scheduler,host-1
+2024-01-01 08:15:28,WARNING,Slow query detected on table users: 8836ms,user-service,host-4
+2024-01-01 08:15:38,INFO,Scheduled job db-cleanup completed in 864ms,data-processor,host-4
+2024-01-01 08:15:52,ERROR,File not found: data.csv,scheduler,host-3
+2024-01-01 08:16:08,ERROR,Service data-processor returned HTTP 500,auth-service,host-2
+2024-01-01 08:17:41,CRITICAL,Service user-service has been down for 267 minutes,user-service,host-2
+2024-01-01 08:18:03,ERROR,Database connection failed: timeout after 4818ms,scheduler,host-5
+2024-01-01 08:18:51,INFO,Configuration file loaded: app.yaml,auth-service,host-5
+2024-01-01 08:19:48,INFO,User eve logged out,data-processor,host-4
+2024-01-01 08:20:17,ERROR,Configuration missing required key: secrets.env,auth-service,host-5
+2024-01-01 08:20:18,INFO,File data.csv uploaded successfully,user-service,host-1
+2024-01-01 08:22:02,INFO,Service auth-service started on port 8080,scheduler,host-3
+2024-01-01 08:22:49,ERROR,Session SES-714 not found or expired,user-service,host-1
+2024-01-01 08:22:56,ERROR,Session SES-117 not found or expired,data-processor,host-3
+2024-01-01 08:23:04,INFO,File backup.tar.gz uploaded successfully,user-service,host-5
+2024-01-01 08:23:20,WARNING,Timezone mismatch detected in request from 10.0.0.9,payment-api,host-1
+2024-01-01 08:23:37,INFO,New record inserted into table sessions,user-service,host-2
+2024-01-01 08:23:45,CRITICAL,CPU usage at 100% for 368 consecutive minutes,data-processor,host-2
+2024-01-01 08:23:55,INFO,Email notification sent to bob,user-service,host-3
+2024-01-01 08:24:19,INFO,User bob logged out,auth-service,host-3
+2024-01-01 08:24:52,WARNING,Rate limit approaching for API key KEY-697,auth-service,host-1
+2024-01-01 08:25:25,WARNING,Response time for /login exceeded 6853ms threshold,scheduler,host-4
+2024-01-01 08:25:44,INFO,New record inserted into table audit_logs,user-service,host-1
+2024-01-01 08:26:04,INFO,File report.pdf uploaded successfully,scheduler,host-2
+2024-01-01 08:26:36,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.10,scheduler,host-1
+2024-01-01 08:27:38,ERROR,NullPointerException in module UserController at line 337,user-service,host-5
+2024-01-01 08:27:41,INFO,Email notification sent to system,data-processor,host-2
+2024-01-01 08:28:19,CRITICAL,SSL private key KEY-175 has been compromised,data-processor,host-4
+2024-01-01 08:28:23,INFO,API request to /api/v1/users returned 200 OK,scheduler,host-5
+2024-01-01 08:28:30,INFO,Backup completed successfully for postgres-primary,data-processor,host-3
+2024-01-01 08:28:32,WARNING,Config value secrets.env is using deprecated format,payment-api,host-2
+2024-01-01 08:28:43,INFO,File data.csv uploaded successfully,user-service,host-1
+2024-01-01 08:28:52,ERROR,Authentication token expired for user charlie,payment-api,host-5
+2024-01-01 08:28:52,INFO,Service user-service started on port 5432,data-processor,host-3
+2024-01-01 08:29:00,CRITICAL,Memory leak detected — system will restart in 428s,auth-service,host-4
+2024-01-01 08:29:10,WARNING,Deprecated API endpoint /data/export called by alice,user-service,host-5
+2024-01-01 08:29:25,INFO,Backup completed successfully for redis-main,auth-service,host-3
+2024-01-01 08:29:58,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.13,scheduler,host-5
+2024-01-01 08:30:02,INFO,New record inserted into table sessions,data-processor,host-5
+2024-01-01 08:30:12,WARNING,Low available connections in pool: 146 remaining,payment-api,host-3
+2024-01-01 08:30:38,ERROR,Service scheduler returned HTTP 500,data-processor,host-2
+2024-01-01 08:30:40,INFO,File data.csv uploaded successfully,payment-api,host-5
+2024-01-01 08:30:52,ERROR,Out of memory error in process 8983,auth-service,host-5
+2024-01-01 08:31:00,INFO,Configuration file loaded: db.conf,data-processor,host-1
+2024-01-01 08:31:56,INFO,Backup completed successfully for mongo-cluster,user-service,host-4
+2024-01-01 08:31:56,INFO,Payment processed successfully for order ORD-2011,payment-api,host-2
+2024-01-01 08:31:58,INFO,Configuration file loaded: app.yaml,payment-api,host-1
+2024-01-01 08:32:12,WARNING,Retry attempt 82 for service payment-api,data-processor,host-3
+2024-01-01 08:32:18,ERROR,File not found: report.pdf,user-service,host-5
+2024-01-01 08:32:44,INFO,New record inserted into table sessions,data-processor,host-3
+2024-01-01 08:33:04,INFO,User alice logged out,payment-api,host-4
+2024-01-01 08:33:06,WARNING,SSL certificate for internal.company.io expires in 27 days,scheduler,host-3
+2024-01-01 08:33:14,INFO,File report.pdf uploaded successfully,user-service,host-1
+2024-01-01 08:33:24,INFO,API request to /api/v2/payments returned 200 OK,auth-service,host-2
+2024-01-01 08:33:37,INFO,Backup completed successfully for redis-main,user-service,host-2
+2024-01-01 08:33:52,WARNING,Low available connections in pool: 48 remaining,scheduler,host-5
+2024-01-01 08:34:09,WARNING,Config value db.conf is using deprecated format,auth-service,host-3
+2024-01-01 08:34:27,INFO,User eve logged in successfully from IP 10.0.0.8,scheduler,host-5
+2024-01-01 08:34:51,CRITICAL,DDoS attack detected: 355 requests/sec from 192.168.1.11,payment-api,host-1
+2024-01-01 08:35:03,INFO,API request to /data/export returned 200 OK,data-processor,host-2
+2024-01-01 08:35:06,INFO,Backup completed successfully for mongo-cluster,payment-api,host-3
+2024-01-01 08:35:06,ERROR,Session SES-393 not found or expired,data-processor,host-3
+2024-01-01 08:35:22,CRITICAL,Database cluster postgres-primary is completely unreachable,auth-service,host-2
+2024-01-01 08:36:16,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.5,user-service,host-3
+2024-01-01 08:36:45,WARNING,Retry attempt 222 for service data-processor,payment-api,host-5
+2024-01-01 08:37:06,INFO,Email notification sent to admin,data-processor,host-4
+2024-01-01 08:37:30,INFO,API request to /login returned 200 OK,user-service,host-4
+2024-01-01 08:37:38,ERROR,Failed to process payment for order ORD-8697: insufficient funds,user-service,host-3
+2024-01-01 08:37:51,ERROR,Unhandled exception in thread Thread-17: server error,user-service,host-5
+2024-01-01 08:38:24,ERROR,Out of memory error in process 5288,payment-api,host-4
+2024-01-01 08:38:34,INFO,User system logged in successfully from IP 192.168.1.21,user-service,host-5
+2024-01-01 08:39:18,INFO,API request to /health returned 200 OK,data-processor,host-5
+2024-01-01 08:39:51,INFO,Backup completed successfully for postgres-primary,payment-api,host-3
+2024-01-01 08:39:56,CRITICAL,CPU usage at 100% for 164 consecutive minutes,data-processor,host-2
+2024-01-01 08:39:57,WARNING,Retry attempt 120 for service user-service,user-service,host-2
+2024-01-01 08:40:10,WARNING,Low available connections in pool: 489 remaining,auth-service,host-2
+2024-01-01 08:40:17,ERROR,Data validation failed for field email,scheduler,host-1
+2024-01-01 08:40:22,WARNING,Low available connections in pool: 263 remaining,data-processor,host-2
+2024-01-01 08:40:30,INFO,User system logged out,user-service,host-3
+2024-01-01 08:40:57,INFO,Backup completed successfully for redis-main,auth-service,host-1
+2024-01-01 08:41:09,ERROR,Configuration missing required key: db.conf,data-processor,host-1
+2024-01-01 08:41:49,INFO,User alice logged out,scheduler,host-2
+2024-01-01 08:41:58,INFO,Email notification sent to alice,data-processor,host-4
+2024-01-01 08:42:21,ERROR,Unhandled exception in thread Thread-14: insufficient funds,payment-api,host-4
+2024-01-01 08:43:05,INFO,Health check passed for service auth-service,payment-api,host-4
+2024-01-01 08:44:12,INFO,API request to /login returned 200 OK,data-processor,host-5
+2024-01-01 08:44:54,CRITICAL,SSL private key KEY-462 has been compromised,payment-api,host-2
+2024-01-01 08:46:37,INFO,Session created for user dave,user-service,host-1
+2024-01-01 08:46:46,ERROR,Email delivery failed for charlie: invalid card,user-service,host-2
+2024-01-01 08:47:40,CRITICAL,SSL private key KEY-309 has been compromised,payment-api,host-5
+2024-01-01 08:47:48,INFO,Cache refreshed successfully for module UserController,auth-service,host-3
+2024-01-01 08:47:53,WARNING,Slow query detected on table products: 2503ms,data-processor,host-4
+2024-01-01 08:47:56,INFO,API request to /data/export returned 200 OK,auth-service,host-5
+2024-01-01 08:48:15,ERROR,Failed to process payment for order ORD-5790: server error,auth-service,host-2
+2024-01-01 08:48:17,WARNING,Cache miss rate elevated: 85%,data-processor,host-5
+2024-01-01 08:48:22,INFO,Email notification sent to alice,scheduler,host-3
+2024-01-01 08:48:49,WARNING,Config value db.conf is using deprecated format,scheduler,host-1
+2024-01-01 08:49:06,WARNING,Queue size for email-queue exceeds 65 messages,auth-service,host-5
+2024-01-01 08:50:19,ERROR,API call to /login failed after 65 retries,data-processor,host-5
+2024-01-01 08:51:39,INFO,Backup completed successfully for redis-main,scheduler,host-5
+2024-01-01 08:51:50,WARNING,Failed login attempt for user alice from IP 192.168.1.29,user-service,host-1
+2024-01-01 08:52:10,INFO,File data.csv uploaded successfully,scheduler,host-4
+2024-01-01 08:52:32,INFO,Scheduled job db-cleanup completed in 3546ms,user-service,host-1
+2024-01-01 08:53:06,WARNING,Disk usage at 93% on volume sdb2,payment-api,host-5
+2024-01-01 08:53:18,INFO,User dave logged out,data-processor,host-3
+2024-01-01 08:53:25,INFO,API request to /api/v2/payments returned 200 OK,scheduler,host-2
+2024-01-01 08:53:52,INFO,File backup.tar.gz uploaded successfully,data-processor,host-5
+2024-01-01 08:54:06,INFO,Cache refreshed successfully for module UserController,data-processor,host-5
+2024-01-01 08:55:10,WARNING,Cache miss rate elevated: 81%,scheduler,host-3
+2024-01-01 08:55:39,WARNING,SSL certificate for example.com expires in 12 days,payment-api,host-5
+2024-01-01 08:55:57,INFO,API request to /login returned 200 OK,auth-service,host-2
+2024-01-01 08:56:36,ERROR,Permission denied: user system accessing /etc/passwd,user-service,host-1
+2024-01-01 08:57:19,INFO,Session created for user charlie,user-service,host-3
+2024-01-01 08:57:23,INFO,User system logged out,auth-service,host-2
+2024-01-01 08:59:02,INFO,User bob logged out,data-processor,host-1
+2024-01-01 08:59:04,ERROR,Failed to process payment for order ORD-2528: timeout,payment-api,host-1
+2024-01-01 08:59:10,INFO,User system logged out,user-service,host-1
+2024-01-01 08:59:23,INFO,Database connection established successfully,user-service,host-4
+2024-01-01 08:59:48,INFO,Session created for user charlie,user-service,host-5
+2024-01-01 09:00:01,CRITICAL,Production deployment FAILED: rollback initiated,payment-api,host-4
+2024-01-01 09:00:05,ERROR,Permission denied: user alice accessing /admin,auth-service,host-2
+2024-01-01 09:00:07,INFO,New record inserted into table transactions,user-service,host-2
+2024-01-01 09:00:07,INFO,Email notification sent to bob,payment-api,host-1
+2024-01-01 09:00:55,INFO,Email notification sent to system,data-processor,host-5
+2024-01-01 09:02:19,ERROR,Session SES-389 not found or expired,payment-api,host-3
+2024-01-01 09:02:40,CRITICAL,Security breach detected: unauthorized root access from 192.168.1.10,payment-api,host-5
+2024-01-01 09:04:18,INFO,Cache refreshed successfully for module PaymentProcessor,scheduler,host-2
+2024-01-01 09:04:22,ERROR,Out of memory error in process 8558,auth-service,host-5
+2024-01-01 09:05:09,ERROR,NullPointerException in module AuthManager at line 334,auth-service,host-5
+2024-01-01 09:05:31,INFO,New record inserted into table sessions,user-service,host-5
+2024-01-01 09:05:33,ERROR,Database connection failed: timeout after 5165ms,auth-service,host-2
+2024-01-01 09:06:19,WARNING,Disk usage at 94% on volume sda1,data-processor,host-1
+2024-01-01 09:07:25,WARNING,Deprecated API endpoint /data/export called by alice,auth-service,host-3
+2024-01-01 09:07:49,WARNING,Deprecated API endpoint /login called by admin,payment-api,host-4
+2024-01-01 09:08:05,INFO,Backup completed successfully for mongo-cluster,payment-api,host-5
+2024-01-01 09:08:33,WARNING,Queue size for email-queue exceeds 384 messages,auth-service,host-1
+2024-01-01 09:09:32,WARNING,SSL certificate for api.example.com expires in 20 days,payment-api,host-2
+2024-01-01 09:09:51,INFO,Scheduled job db-cleanup completed in 8388ms,user-service,host-3
+2024-01-01 09:10:25,INFO,Backup completed successfully for redis-main,scheduler,host-3
+2024-01-01 09:11:18,CRITICAL,Backup restoration FAILED — data may be lost,scheduler,host-3
+2024-01-01 09:13:06,WARNING,Rate limit approaching for API key KEY-273,user-service,host-1
+2024-01-01 09:13:14,ERROR,File not found: data.csv,data-processor,host-2
+2024-01-01 09:13:15,ERROR,Authentication token expired for user alice,data-processor,host-4
+2024-01-01 09:13:57,INFO,User admin logged out,data-processor,host-3
+2024-01-01 09:15:49,INFO,New record inserted into table sessions,auth-service,host-2
+2024-01-01 09:16:32,INFO,Health check passed for service scheduler,scheduler,host-5
+2024-01-01 09:16:54,INFO,File backup.tar.gz uploaded successfully,scheduler,host-2
+2024-01-01 09:17:37,WARNING,Failed login attempt for user dave from IP 192.168.1.18,data-processor,host-5
+2024-01-01 09:18:38,WARNING,Cache miss rate elevated: 87%,user-service,host-2
+2024-01-01 09:18:55,WARNING,High memory usage detected: 68% utilization,payment-api,host-4
+2024-01-01 09:19:02,INFO,Service scheduler started on port 3000,auth-service,host-3
+2024-01-01 09:19:12,INFO,Backup completed successfully for redis-main,auth-service,host-5
+2024-01-01 09:19:25,ERROR,File not found: backup.tar.gz,scheduler,host-5
+2024-01-01 09:19:35,WARNING,Timezone mismatch detected in request from 192.168.1.2,payment-api,host-4
+2024-01-01 09:19:52,INFO,Backup completed successfully for redis-main,user-service,host-3
+2024-01-01 09:20:20,INFO,User charlie logged out,data-processor,host-3
+2024-01-01 09:20:24,INFO,Payment processed successfully for order ORD-5526,data-processor,host-2
+2024-01-01 09:21:59,INFO,API request to /data/export returned 200 OK,scheduler,host-3
+2024-01-01 09:22:43,INFO,Email notification sent to eve,auth-service,host-1
+2024-01-01 09:22:56,INFO,User bob logged in successfully from IP 192.168.1.19,scheduler,host-2
+2024-01-01 09:23:19,INFO,Backup completed successfully for postgres-primary,auth-service,host-3
+2024-01-01 09:23:38,WARNING,Cache miss rate elevated: 86%,payment-api,host-1
+2024-01-01 09:24:27,INFO,Health check passed for service user-service,user-service,host-4
+2024-01-01 09:24:52,INFO,New record inserted into table users,data-processor,host-3
+2024-01-01 09:25:45,INFO,Health check passed for service auth-service,user-service,host-2
+2024-01-01 09:26:49,ERROR,Failed to process payment for order ORD-7040: insufficient funds,user-service,host-5
+2024-01-01 09:27:00,WARNING,Slow query detected on table products: 8253ms,user-service,host-2
+2024-01-01 09:27:04,INFO,Cache refreshed successfully for module UserController,auth-service,host-4
+2024-01-01 09:27:24,ERROR,Out of memory error in process 5643,data-processor,host-3
+2024-01-01 09:27:33,INFO,Health check passed for service data-processor,auth-service,host-2
+2024-01-01 09:27:51,INFO,User alice logged in successfully from IP 192.168.1.28,user-service,host-3
+2024-01-01 09:28:13,WARNING,Config value app.yaml is using deprecated format,payment-api,host-1
+2024-01-01 09:28:24,ERROR,Email delivery failed for alice: invalid card,auth-service,host-1
+2024-01-01 09:28:50,WARNING,Failed login attempt for user alice from IP 192.168.1.17,data-processor,host-5
+2024-01-01 09:28:54,INFO,Backup completed successfully for redis-main,scheduler,host-5
+2024-01-01 09:29:31,INFO,Cache refreshed successfully for module PaymentProcessor,auth-service,host-5
+2024-01-01 09:30:04,INFO,User admin logged in successfully from IP 192.168.1.25,data-processor,host-4
+2024-01-01 09:30:37,WARNING,Rate limit approaching for API key KEY-618,payment-api,host-3
+2024-01-01 09:32:15,INFO,Email notification sent to admin,user-service,host-5
+2024-01-01 09:32:31,INFO,Configuration file loaded: secrets.env,auth-service,host-2
+2024-01-01 09:32:44,ERROR,Failed to write to disk: invalid card,auth-service,host-3
+2024-01-01 09:33:14,WARNING,Retry attempt 246 for service data-processor,user-service,host-3
+2024-01-01 09:33:18,INFO,Database connection established successfully,user-service,host-2
+2024-01-01 09:33:21,INFO,Cache refreshed successfully for module UserController,scheduler,host-3
+2024-01-01 09:33:27,WARNING,SSL certificate for api.example.com expires in 26 days,scheduler,host-2
+2024-01-01 09:33:40,ERROR,Failed to process payment for order ORD-4508: insufficient funds,user-service,host-4
+2024-01-01 09:33:41,INFO,Backup completed successfully for mongo-cluster,auth-service,host-4
+2024-01-01 09:34:36,INFO,Backup completed successfully for mongo-cluster,payment-api,host-1
+2024-01-01 09:35:49,INFO,File backup.tar.gz uploaded successfully,user-service,host-4
+2024-01-01 09:36:24,ERROR,Unhandled exception in thread Thread-10: timeout,user-service,host-1
+2024-01-01 09:37:06,INFO,API request to /health returned 200 OK,scheduler,host-5
+2024-01-01 09:37:28,WARNING,SSL certificate for internal.company.io expires in 4 days,auth-service,host-1
+2024-01-01 09:37:34,WARNING,Timezone mismatch detected in request from 192.168.1.7,user-service,host-2
+2024-01-01 09:38:57,CRITICAL,Backup restoration FAILED — data may be lost,payment-api,host-1
