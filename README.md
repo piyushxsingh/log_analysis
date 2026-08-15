@@ -43,12 +43,17 @@ Develop a machine learning–based system that can:
 
 ## 📁 Project Structure
 
+---
+
+## 📁 Project Structure
+
 ```
 log_analysis_system/
 │
 ├── data/
 │   |── generate_logs.py      # Synthetic log generator
 │   └── system_logs.csv       # Generated dataset (1,200 logs)
+|   └── HDFS_2k.csv
 │
 ├── models/
 │   ├── tfidf_vectorizer.pkl  # Trained TF-IDF vectorizer
@@ -56,7 +61,8 @@ log_analysis_system/
 │   ├── severity_classifier.pkl # Trained severity classifier
 │   └── label_encoder.pkl     # Label encoder for severity classes
 │
-├── app/                      # (reserved for modular app components)
+├── app/                      
+|   └──app.py                 # Streamlit dashboard
 │
 ├── preprocess.py             # Log loading & text cleaning pipeline
 ├── train.py                  # Model training script
